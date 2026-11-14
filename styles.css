@@ -80,3 +80,38 @@ body[lang="ur"] .daily-calendar-wrap [data-polish-ur],body[lang="ur"] .daily-dat
 .evidence-caution{margin:18px 0 0;border-top:1px solid #315061;padding-top:16px}
 body[lang="ur"] .evidence-confidence [data-polish-ur]{direction:rtl;line-height:2.1;font-family:'Noto Nastaliq Urdu',serif}
 @media(max-width:800px){.evidence-status-grid,.evidence-case-results{grid-template-columns:1fr}.evidence-confidence{padding:18px}}
+
+/* Separate focused Jatoi experiment; existing map numbers remain unchanged. */
+.focused-jatoi-section{background:radial-gradient(circle at 85% 15%,#17687824,transparent 45%),#071625}
+.focused-jatoi-section .section-header{align-items:center}
+.focused-jatoi-section h3{font-size:clamp(20px,2.5vw,30px);line-height:1.2}
+.focused-story-link{flex-shrink:0;display:inline-block;padding:14px 20px;border-radius:99px;border:1px solid #73ede46b;color:#86e8e4;font-weight:800;font-size:12px}
+.focused-story-link:hover{background:#73ede420}
+.focused-card,.focused-evidence{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px;margin-top:24px}
+.focused-details,.focused-evidence-copy,.focused-interpretation{border:1px solid #ffffff24;border-radius:18px;padding:clamp(20px,3vw,36px);background:#0c2234}
+.focused-details>p,.focused-evidence-copy>p,.focused-interpretation p{color:#b1c3d1;line-height:1.65;font-size:14px}
+.focused-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:32px 0}
+.focused-stats>div{border-top:1px solid #80e9e660;padding-top:14px}
+.focused-stats strong{display:block;font-size:clamp(23px,3.3vw,43px);letter-spacing:-.06em;font-weight:800;color:#eaffff;white-space:nowrap}
+.focused-stats strong small{font-size:15px;letter-spacing:0}
+.focused-stats span{display:block;color:#afc5d2;font-size:11px;line-height:1.4}
+.focused-scope{font-size:12px!important;color:#829fae!important}
+.focused-figure{margin:0;border:1px solid #ffffff26;border-radius:18px;overflow:hidden;background:#0b2131;display:flex;flex-direction:column;justify-content:center}
+.focused-figure img{display:block;width:100%;object-fit:contain}
+.focused-figure figcaption{font-size:11px;color:#9bb0c0;padding:15px;line-height:1.6}
+.focused-evidence{grid-template-columns:minmax(0,1.5fr) minmax(270px,.65fr)}
+.focused-interpretation{background:linear-gradient(155deg,#104256,#0b1b2e)}
+.focused-interpretation>strong{display:block;font-size:clamp(29px,3vw,43px);color:#a5f8f1;margin-top:22px}
+.focused-interpretation>strong small{font-size:12px;font-weight:500;display:block;color:#b0c8d4;letter-spacing:0}
+.focused-interpretation>a{font-size:12px;color:#9bf0f0;display:inline-block;margin-top:12px}
+.focused-bars{margin-top:25px}
+.focused-bar-label{display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap;font-size:11px;color:#c7d4de;margin-bottom:10px}
+.focused-stacked{height:18px;display:flex;overflow:hidden;border-radius:16px;background:#193446}
+.focused-stacked span{height:100%;display:block}
+.focused-match{background:#69e6d0}.focused-other{background:#587995}.focused-missing{background:#eeae6c}
+.focused-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:15px;font-size:11px;color:#b8c8d3}
+.focused-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.focused-dot-match{background:#69e6d0}.focused-dot-other{background:#587995}.focused-dot-missing{background:#eeae6c}
+.focused-note{font-size:12px;color:#9fb8c5;margin:20px 0 0;line-height:1.7}
+@media(max-width:800px){.focused-card,.focused-evidence{grid-template-columns:1fr}.focused-figure{min-height:200px}}
+@media(max-width:450px){.focused-stats{grid-template-columns:1fr 1fr}.focused-stats strong{font-size:30px}}
