@@ -15,32 +15,42 @@ jobs:
         run: |
           python3 -m http.server 8765 > /tmp/underclouds-server.log 2>&1 &
           sleep 3
-      - name: Capture full-resolution browser screenshots
+      - name: Capture visible sections at full resolution
         shell: bash
         run: |
           set -e
+          python3 -m pip install --quiet playwright
           mkdir -p screenshots
-          BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)
-          if [ -z "$BROWSER" ]; then
-            sudo apt-get update -qq
-            sudo apt-get install -y chromium-browser
-            BROWSER=$(command -v chromium-browser)
-          fi
-          declare -A pages=(
-            [homepage]="#home"
-            [explorer]="#explorer"
-            [blind-days]="#blind-days"
-            [validation-overview]="#validation"
-          )
-          for section in homepage explorer blind-days validation-overview; do
-            "$BROWSER" --headless --no-sandbox --disable-dev-shm-usage --hide-scrollbars --window-size=1600,1050 --force-device-scale-factor=1 --virtual-time-budget=7000 --screenshot="$PWD/screenshots/${section}.png" "http://127.0.0.1:8765/${pages[$section]}"
-          done
-          ls -lh screenshots/*.png
+          python3 - <<'PY'
+          import shutil
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          chrome = shutil.which("google-chrome") or shutil.which("chromium") or shutil.which("chromium-browser")
+          assert chrome, "Chrome/Chromium is required on the runner"
+          sections = {
+              "homepage": "home",
+              "explorer": "explorer",
+              "blind-days": "blind-days",
+              "validation-overview": "validation",
+          }
+          with sync_playwright() as p:
+              browser = p.chromium.launch(executable_path=chrome, headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+              page = browser.new_page(viewport={"width":1600,"height":1000}, device_scale_factor=1)
+              for output, target in sections.items():
+                  page.goto(f"http://127.0.0.1:8765/#{target}", wait_until="domcontentloaded", timeout=60000)
+                  page.wait_for_timeout(5500)
+                  page.evaluate("target => { const el=document.getElementById(target); if(el){el.scrollIntoView({block:'start',behavior:'instant'});} else {window.scrollTo(0,0);} }", target)
+                  page.wait_for_timeout(1500)
+                  dest=f"screenshots/{output}.png"
+                  page.screenshot(path=dest, animations="disabled")
+                  print(dest, Path(dest).stat().st_size, flush=True)
+              browser.close()
+          PY
       - name: Commit full-resolution images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add screenshots/*.png
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Capture clear 1600px browser screenshots for README"
+          git commit -m "Refresh full-resolution browser screenshots with precise section scroll"
           git push
