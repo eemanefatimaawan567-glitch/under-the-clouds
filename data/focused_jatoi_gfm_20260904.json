@@ -47,6 +47,14 @@
     "retrieved 500-item STAC sample may not cover every observation",
     "candidate-focused overlap alone does not establish precision recall F1",
     "study candidates are not a confirmed flood area",
-    "cropland exposure and crop damage not validated"
-  ]
+    "cropland exposure and crop damage not validated",
+    "modest descriptive lift vs baseline does not establish predictive skill",
+    "candidate study area manually selected, not randomized independent holdout"
+  ],
+  "gfm_reference_covered_study_pixels": 462341,
+  "gfm_reference_flood_pixels_in_study_area": 19918,
+  "gfm_reference_flood_prevalence": 0.04308075641139332,
+  "gfm_candidate_overlap_lift_vs_study_prevalence": 1.33633967198733,
+  "baseline_interpretation": "Descriptive GFM flood prevalence (4.31%) vs candidate overlap (5.76%); lift ~1.34x. Not an independent accuracy metric, not statistical significance, not ground truth.",
+  "study_window_selection": "Exploratory locality-focused box around Jatoi NISAR-covered anchor; selected before direct EODC GFM audit, but not a randomized/preregistered spatial holdout. Chronology and earlier contextual exposure should be independently documented."
 }
