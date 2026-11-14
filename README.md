@@ -159,3 +159,15 @@ The team's original repository code may be shared under the included **MIT Licen
 - Deliverables: a **public live website**, **public repository**, and a **separate demo link**.
 - See [DEMO_SCRIPT_30_SECONDS.md](DEMO_SCRIPT_30_SECONDS.md) and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
 - Confirm current event requirements in the official portal and submit before the published deadline.
+
+## Evidence-confidence interpretation (new)
+
+The [Evidence Confidence section](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#evidence-confidence) now explains three *categorical evidence states*: **supported by reference**, **unconfirmed radar change**, and **insufficient evidence**. These labels describe evidence availability and agreement, **not predicted flood probabilities**. Existing Jatoi candidates remain unconfirmed; no individual polygon is relabelled as a proven flood.
+
+### Additional regional flood-reference experiment (Muzaffargarh, exploratory)
+
+A fixed dual-polarization rule, **HH darkening ≤ −2 dB AND HV darkening ≤ −2 dB**, was compared against a separate July reference (NISAR 12→24 July 2026; GFM 22 July 2026). In the reported evaluation area: **800,728** eligible pixels; **1,571** GFM flood-reference pixels; **TP 135, FP 52,638, FN 1,436, TN 746,519**; **precision 0.256%, recall 8.593%, F1 0.497%**. This was an additional date-pair test of the fixed rule and is **not a validated flood detector**. The GFM reference predates the latter NISAR image by two days; SAR products and GFM are not field ground truth.
+
+In a separate August exploratory experiment (NISAR 17→29 August, GFM 27 August), the HH/HV dual-darkening rule obtained TP 30, FP 6,952, FN 137, TN 192,861 (0.430% precision / 17.96% recall). Restricting GFM comparison to areas outside its exclusion mask and normal reference-water mask changed the evaluation domain to 148,026 pixels and gave TP 30, FP 5,360, FN 137, TN 142,499 (0.557% precision / 17.96% recall). This is a **different evaluation population, not a model accuracy improvement**. GFM advisory categories showed differing results, so they must not be silently discarded.
+
+These regional experiments are **not the data underlying the 172 displayed Muzaffargarh polygons**, and should not be mistaken for per-feature validation. No emergency decisions should be based on these maps.
