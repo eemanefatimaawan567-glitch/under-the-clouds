@@ -8,8 +8,12 @@ Use the live [NASA-inspired story](https://eemanefatimaawan567-glitch.github.io/
 | 2. The challenge | **“In monsoon season, optical images can miss changes below clouds.”** |
 | 3. Two NISAR observations | **“We compared two NISAR observations over Jatoi, Pakistan.”** |
 | 4. The finding | **“We found 125 radar-change clusters. These are not confirmed floods.”** |
-| 5. The independent check | **“Only 100 candidate pixels overlapped Copernicus flood estimates.”** |
+| 5. The independent check | **“About six percent of candidates overlapped the flood estimate—only slightly above the local baseline.”** |
 | 6. Conclusion | **“Real science shows both the evidence and the uncertainty.”** |
+
+## Video strategy: choose one study
+
+The 6-chapter **story-page recording** focuses on the **125-cluster** study only. If the screen shows the older interactive map, either skip its numbers or record a separate demo that uses **290** throughout. Never narrate 125 while presenting 290 map polygons.
 
 ## Optional extra 10–15 seconds for the dashboard
 
@@ -22,7 +26,7 @@ Use the live [NASA-inspired story](https://eemanefatimaawan567-glitch.github.io/
 - The story page captions are intentionally **small, single-sentence subtitles**, not large title cards.
 - Scroll once per sentence rather than moving rapidly between sections.
 - The **125-cluster** focused analysis and **290-cluster** older dashboard analysis are different studies. Never imply the map displays the focused clusters.
-- “100 pixels overlapped GFM” is **cross-date satellite agreement**, not 100 ground-confirmed flood pixels.
+- “5.76% overlapped GFM” is cross-date satellite agreement, compared with a 4.31% reference prevalence (lift ≈ 1.34×). This is **not** ground confirmation or strong model skill.
 - Do not call radar candidates confirmed flooding or agricultural losses.
 - The project is independent research, **not a NASA-operated site**.
 - Screen recording and narration remain yours to create; this file supplies the script and on-screen captions.
