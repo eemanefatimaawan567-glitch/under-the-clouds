@@ -5,7 +5,7 @@
 
 > **Research demonstration, not a confirmed flood map or operational flood alert.** A radar change is a candidate for investigation—not proof of flooding.
 
-[**Explore the live demo**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) · [Methodology](METHOD.md) · [30-second demo script](DEMO_SCRIPT_30_SECONDS.md)
+[**Interactive dashboard**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) · [**Visual Earth-observation story**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/story.html) · [**Focused Jatoi evidence**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi) · [Methodology](METHOD.md) · [30-second demo script](DEMO_SCRIPT_30_SECONDS.md)
 
 ## Project overview
 
@@ -16,6 +16,46 @@ Monsoon clouds can limit optical Earth observation. **Under the Clouds** combine
 **High-resolution research image:** [Jatoi NISAR observation comparison](assets/jatoi_before_after.png)
 
 ![Jatoi NISAR radar observation comparison, high-resolution research figure](assets/jatoi_before_after.png)
+
+## Two distinct Jatoi analyses — keep these numbers separate
+
+The repository now presents two **different geographic/processing footprints**, not two versions of the same flood area:
+
+| | Earlier interactive-map study | New focused Jatoi study |
+|---|---|---|
+| Role | Existing map and earlier validation tabs | Separate evidence-first analysis and NASA-style story |
+| Exploratory clusters | **290** | **125** |
+| Candidate pixels | **5,679** | **1,753** |
+| Radar-change candidate area | ~0.568 km² | **0.1753 km² (17.53 ha)** |
+| Reference comparison | Earlier 27 Aug GFM / 4 Sep limited-footprint checks, reported in original tabs | **4 Sep 2026 Copernicus GFM**, compared with 5 Sep NISAR |
+| Scientific interpretation | Unconfirmed surface-change candidates | Unconfirmed surface-change candidates; partial GFM spatial agreement |
+
+**Do not sum, substitute or merge these values.** The new focused analysis uses NISAR track 164 / frame 73, original HH/HV GCOV images from **12 August** and **5 September 2026**, aligned to a 10 m grid, with an approximate target window **70.75–70.82°E / 29.59–29.65°N**.
+
+### Focused Jatoi independent GFM evidence (4 September 2026)
+
+| Audit item | Measured result |
+|---|---:|
+| Original NISAR radar-change candidates | **1,753 pixels** |
+| Candidates with GFM reference coverage | **1,737 (99.09%)** |
+| Candidates overlapping GFM-mapped flood | **100** |
+| Covered candidates without mapped flood overlap | **1,637** |
+| Candidates lacking GFM coverage | **16** |
+| Flood overlap / GFM-covered candidates | **5.76%** |
+| Readable GFM observations from retrieved 500-item STAC sample | **100** |
+| Duplicate observations removed by acquisition time + identical raster | **98** |
+| Unique readable observations in that sample | **2** |
+
+This is **cross-date spatial agreement**, **not flood confirmation or a flood-classifier precision/recall/F1 score**. The two GFM observations are dated **4 September 2026**, one day before the 5 September NISAR observation. GFM itself is a satellite-derived estimate. A 500-item catalogue result limit is **not proof of exhaustive temporal coverage**. The largest three candidate clusters in this check had no GFM flood overlap; absence of a GFM flag does not rule out flooding at another time or under different conditions.
+
+The [**focused evidence section**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi) visualizes the counts without altering the existing map datasets. [Machine-readable audit summary](data/focused_jatoi_gfm_20260904.json) · [NASA-inspired visual story](story.html). The dedicated GFM/NISAR georeferenced evidence map generated in Colab is **not yet committed to this repository**, so the focused study is not represented as a new interactive map layer.
+
+### Why this presentation is scientific
+
+- **Observed:** radar-backscatter changes and candidate clusters.
+- **Independent comparison:** partial agreement with a Copernicus satellite-derived flood reference.
+- **Not established:** ground-confirmed inundation, field-level crop damage, affected farmers, losses or operational detection accuracy.
+- **Agriculture wording:** if cropland is later intersected with candidates, describe it as *cropland within radar-change candidates*, not flood-damaged crops.
 
 ## How it works — research workflow
 
@@ -40,6 +80,9 @@ flowchart TD
 **Reading the flow:** We do **not** train a successful flood classifier or claim that change pixels are inundated. The independent comparisons are used to *challenge* the radar-change interpretation. The Blind Days calendar measures optical-observation availability separately from the spatial candidate screening.
 
 ## Website screenshots and full-resolution research figures
+
+**Screenshot provenance:** Existing screenshots were captured before the separate storytelling page and focused-evidence dashboard section were added. Visit the live pages for the latest interface.
+
 
 The map and homepage are images captured from the working browser demo. For the two text-heavy sections, we also provide **sharp vector evidence panels** drawn directly from the measured results. Those SVG panels are explanatory diagrams, **not browser screenshots**. Open the live demo to inspect the full interactive interface.
 
@@ -78,7 +121,10 @@ For the complete six-rule table and evidence notes, open the [live Validation se
 
 A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
 
-## Key findings
+## Earlier interactive-map study — key findings
+
+> **Scope:** The figures in this table belong to the earlier 290-cluster study. For the newer focused study, see [Two distinct Jatoi analyses](#two-distinct-jatoi-analyses--keep-these-numbers-separate).
+
 
 | Measurement | Result | What it means |
 |---|---:|---|
@@ -91,6 +137,8 @@ A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% prec
 | Separate Case 2 GFM comparison | **60.98% recall / 0.110% precision** | Unreliable as a flood classifier |
 
 ## What judges can explore
+
+- Read the [immersive story](story.html) and open the [focused Jatoi GFM evidence](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi), which explain the newer 125-cluster study separately from the map.
 
 1. Open **Explore Map**, switch between Jatoi and the **separate exploratory Muzaffargarh case**, and inspect candidate overlays.
 2. Open **Blind Days** to explore 150 dated optical-observation states and known NISAR study acquisitions.
