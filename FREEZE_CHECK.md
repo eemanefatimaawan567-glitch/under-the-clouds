@@ -1,21 +1,14 @@
-# Under the Clouds — submission freeze
+# Submission freeze — CURRENT STATUS (15 Nov 2026)
 
-- This build uses the original Option 2 layout and bundled geodata.
-- Validation precision wording: **about 1 in 911 flagged pixels matched the GFM flood reference**; GFM is not ground truth.
-- Daily cloud/Blind Days is marked **planned**, not measured. **83.8% is spatial optical screening coverage on 4 September**, not a number of clear days.
-- The hero disclaimer remains visible on mobile.
-- No claim of confirmed flood extent or operational warning capability.
-- Browser rendering, offline behavior and mobile interactions still require manual verification.
+This document **supersedes earlier claims that Blind Days were only planned**. The earlier version described a pre-calendar build, not the current repo.
 
-## Demo checklist
+- Public static site: `index.html`; scientific story: `story.html`. Both are checked into `main`.
+- **Earlier map study:** 290 candidate clusters, 5,679 candidate pixels, 0.5679 km². Its map layer and original tabs are not the focused experiment.
+- **Focused Jatoi original NISAR study:** 125 clusters, 1,753 pixels, 17.53 ha radar-change candidates; independent 4 Sep GFM comparison covers 1,737 candidate pixels, 100 overlaps.
+- **Baseline:** GFM flood prevalence 19,918 / 462,341 covered study pixels = 4.31%; candidate overlap 100 / 1,737 = 5.76%; descriptive lift ≈1.34×. Does **not** establish reliable flood detection or ground validation.
+- **Blind Days now computed:** 17 Jun–13 Nov 2026, 150 dates: 56 preliminary optical-usable, 12 obstructed, 82 *without observations*. The 82 dates are **not cloudy-day counts**. The 83.8% metric belongs to a different, spatial candidate-screening measure.
+- **Provenance:** focused window selected around Jatoi locality inside a NISAR-covered frame before the direct GFM sampling; it is not a preregistered random holdout.
+- **AI disclosure, source credits, and limitations:** see README and METHOD.md. The website is a research prototype, not a NASA-operated site or an emergency-alert service.
+- **Manual checks before submission:** public Pages site, story mobile captions, map interactivity, evidence downloads, Urdu language control, video, links in incognito, time limit.
 
-1. English by default; prominent disclaimer on phone and desktop.
-2. Jatoi and Muzaffargarh map layers; satellite basemap; reset button.
-3. Case 2: about 1 in 911, reference prevalence ~0.078%, roughly 1.41x, ROC AUC 0.5 reference.
-4. Urdu toggle including Blind Days and metrics.
-5. Download field-verification CSV.
-6. Confirm public GitHub and demo URL before submission.
-
-## Attribution
-
-Disclose AI assistance in final submission/README as applicable (e.g., ChatGPT and Claude) and review your challenge disclosure rules.
+If recording the existing earlier map, narrate only **290**; if recording the standalone focused story, narrate only **125**. Do not merge the two study figures.
