@@ -28,7 +28,7 @@ The repository now presents two **different geographic/processing footprints**, 
 | Candidate pixels | **5,679** | **1,753** |
 | Radar-change candidate area | ~0.568 km² | **0.1753 km² (17.53 ha)** |
 | Reference comparison | Earlier 27 Aug GFM / 4 Sep limited-footprint checks, reported in original tabs | **4 Sep 2026 Copernicus GFM**, compared with 5 Sep NISAR |
-| Scientific interpretation | Unconfirmed surface-change candidates | Unconfirmed surface-change candidates; partial GFM spatial agreement |
+| Scientific interpretation | Unconfirmed surface-change candidates | Unconfirmed surface-change candidates; **5.76% overlap vs 4.31% reference prevalence (≈1.34× baseline)** |
 
 **Do not sum, substitute or merge these values.** The new focused analysis uses NISAR track 164 / frame 73, original HH/HV GCOV images from **12 August** and **5 September 2026**, aligned to a 10 m grid, with an approximate target window **70.75–70.82°E / 29.59–29.65°N**.
 
@@ -42,18 +42,22 @@ The repository now presents two **different geographic/processing footprints**, 
 | Covered candidates without mapped flood overlap | **1,637** |
 | Candidates lacking GFM coverage | **16** |
 | Flood overlap / GFM-covered candidates | **5.76%** |
+| GFM flood prevalence across reference-covered study pixels | **19,918 / 462,341 = 4.31%** |
+| Enrichment over prevalence (lift) | **5.76% / 4.31% ≈ 1.34×** |
 | Readable GFM observations from retrieved 500-item STAC sample | **100** |
 | Duplicate observations removed by acquisition time + identical raster | **98** |
 | Unique readable observations in that sample | **2** |
 
-This is **cross-date spatial agreement**, **not flood confirmation or a flood-classifier precision/recall/F1 score**. The two GFM observations are dated **4 September 2026**, one day before the 5 September NISAR observation. GFM itself is a satellite-derived estimate. A 500-item catalogue result limit is **not proof of exhaustive temporal coverage**. The largest three candidate clusters in this check had no GFM flood overlap; absence of a GFM flag does not rule out flooding at another time or under different conditions.
+The 5.76% candidate overlap is only modestly above the **4.31% chance-prevalence baseline** (lift ≈ **1.34×**). This is a descriptive, non-spatial prevalence comparison, **not** evidence of strong skill, statistical significance, causal flooding, flood confirmation, or a flood-classifier precision/recall/F1 score. Spatial autocorrelation and date mismatch further constrain interpretation. The two GFM observations are dated **4 September 2026**, one day before the 5 September NISAR observation. GFM itself is a satellite-derived estimate. A 500-item catalogue result limit is **not proof of exhaustive temporal coverage**. The largest three candidate clusters in this check had no GFM flood overlap; absence of a GFM flag does not rule out flooding at another time or under different conditions.
+
+The focused geographical window was chosen to examine an approximate **Jatoi locality anchor inside a verified NISAR footprint** and was used before the later direct EODC catalogue comparison; it is **not a randomly selected, independent spatial holdout**. The recorded research history should be used to corroborate the precise selection date and any earlier exposure to flood reports. This window-selection limitation matters for generalization.
 
 The [**focused evidence section**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi) visualizes the counts without altering the existing map datasets. [Machine-readable audit summary](data/focused_jatoi_gfm_20260904.json) · [NASA-inspired visual story](story.html). The dedicated GFM/NISAR georeferenced evidence map generated in Colab is **not yet committed to this repository**, so the focused study is not represented as a new interactive map layer.
 
 ### Why this presentation is scientific
 
 - **Observed:** radar-backscatter changes and candidate clusters.
-- **Independent comparison:** partial agreement with a Copernicus satellite-derived flood reference.
+- **Independent comparison:** 5.76% overlap versus a 4.31% reference prevalence (lift ≈ 1.34×), a weak observational enrichment—not established detection skill.
 - **Not established:** ground-confirmed inundation, field-level crop damage, affected farmers, losses or operational detection accuracy.
 - **Agriculture wording:** if cropland is later intersected with candidates, describe it as *cropland within radar-change candidates*, not flood-damaged crops.
 
