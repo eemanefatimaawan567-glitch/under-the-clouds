@@ -1,5 +1,11 @@
 # Method and limitations
 
+## Important: focused Jatoi subset added after the earlier map study
+
+The **new focused study** covers approximately **70.75–70.82°E, 29.59–29.65°N** using NASA–ISRO NISAR GCOV HH/HV images from **12 August and 5 September 2026** (track 164 / frame 73). After same-grid comparison and connected-component filtering it has **125 candidate clusters and 1,753 pixels (17.53 ha)**. These are unverified radar-change candidates. The existing dashboard map and the region described below use an **earlier and geographically distinct** Jatoi footprint with **290 clusters and 5,679 pixels**. Their counts must not be combined or replaced.
+
+For the new study, the retrieved Copernicus GFM sample on **4 September 2026** included **100 readable entries but only two unique satellite-derived observations**, after removing 98 duplicate raster/time records. GFM covered **1,737 / 1,753** candidate pixels, of which **100** overlapped GFM flood flags; **1,637** covered candidates had no overlap and **16** lacked coverage. This is cross-date satellite agreement, **not confirmed flood extent or a precision/recall/F1 evaluation**. The available search sample may not be exhaustive. [Data summary](data/focused_jatoi_gfm_20260904.json).
+
 ## Study regions and observations
 
 **Jatoi** is the primary case, around longitude 70.77–70.90° E, latitude 29.47–29.59° N. Two same-mode NISAR L-band GCOV observations (12 August and 5 September 2026; track 164, descending, 4005_DHDH_A) support the exploratory change-candidate map. Derived cluster polygons are in `data/jatoi_clusters.geojson` (290 features). Total candidate area is 5,679 × 100 m² = 0.5679 km², assuming a 10 m analysis grid.

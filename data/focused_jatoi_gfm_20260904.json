@@ -1,0 +1,52 @@
+{
+  "title": "Under the Clouds — focused Jatoi NISAR/GFM cross-date satellite evidence audit",
+  "study": "focused Jatoi original GCOV subset",
+  "scope_note": "Geographically and methodologically separate from earlier 290 cluster / 5679 pixel dashboard map study",
+  "bounds_lonlat": [
+    70.75,
+    29.59,
+    70.82,
+    29.65
+  ],
+  "grid_resolution_m": 10,
+  "nisar_pre_date": "2026-08-12",
+  "nisar_post_date": "2026-09-05",
+  "nisar_track": 164,
+  "nisar_frame": 73,
+  "nisar_retained_clusters": 125,
+  "nisar_candidate_pixels": 1753,
+  "nisar_candidate_area_hectares": 17.53,
+  "gfm_reference_date": "2026-09-04",
+  "gfm_candidate_covered": 1737,
+  "gfm_candidate_overlap_flood": 100,
+  "gfm_candidate_covered_no_flood": 1637,
+  "gfm_candidate_uncovered": 16,
+  "gfm_coverage_fraction": 0.9908727895037079,
+  "gfm_flood_overlap_fraction_of_covered": 0.057570523891767415,
+  "gfm_stac_items_sampled": 500,
+  "gfm_readable_observations": 100,
+  "gfm_duplicate_observations": 98,
+  "gfm_unique_observations": 2,
+  "gfm_unique_observation_details": [
+    {
+      "date": "2026-09-04",
+      "covered_candidate_pixels": 91,
+      "flood_overlap_candidate_pixels": 0,
+      "total_gfm_flood_pixels": 0
+    },
+    {
+      "date": "2026-09-04",
+      "covered_candidate_pixels": 1646,
+      "flood_overlap_candidate_pixels": 100,
+      "total_gfm_flood_pixels": 19918
+    }
+  ],
+  "limitations": [
+    "reference is satellite estimate not ground truth",
+    "reference date is one day earlier than later NISAR acquisition",
+    "retrieved 500-item STAC sample may not cover every observation",
+    "candidate-focused overlap alone does not establish precision recall F1",
+    "study candidates are not a confirmed flood area",
+    "cropland exposure and crop damage not validated"
+  ]
+}
