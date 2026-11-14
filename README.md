@@ -41,9 +41,9 @@ flowchart TD
 
 ## Website screenshots and full-resolution research figures
 
-These full-resolution interface screenshots come from the team's **actual local browser screen recording** on 14 November 2026; they are not AI-generated mockups. The original screenshot previews were overcompressed; they have been replaced with automated full-resolution browser captures. The larger images below are **real research figures from the project**, not browser screenshots. Open the live demo to inspect interface text at full resolution.
+The map and homepage are images captured from the working browser demo. For the two text-heavy sections, we also provide **sharp vector evidence panels** drawn directly from the measured results. Those SVG panels are explanatory diagrams, **not browser screenshots**. Open the live demo to inspect the full interactive interface.
 
-> **Image clarity:** Click any screenshot to open its full-resolution PNG. For complete interaction, use the [live website](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/).
+> **Image clarity:** Click the vector panels to view them at any zoom without blur. For full interaction, use the [live website](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/).
 
 
 ### 1. Interactive radar-change explorer
@@ -56,13 +56,17 @@ Shows exploratory radar-change overlays on a map. Orange shapes are **not verifi
 
 ### 2. Blind Days — optical observation calendar
 
-<a href="screenshots/blind-days.png"><img src="screenshots/blind-days.png" alt="blind-days interface preview" width="1000"></a>
+<a href="screenshots/blind-days-summary.svg"><img src="screenshots/blind-days-summary.svg" alt="Clear, scalable visualization of measured Blind Days counts: 56 usable, 12 obstructed and 82 without Sentinel-2 observations" width="1000"></a>
+
+*Readable vector summary of measured results; not a screenshot. See the [interactive daily calendar](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#blind-days) for all 150 dates.*
 
 **17 June–13 November 2026 (150 calendar days):** 56 Sentinel-2 optical-usable dates, 12 observed-but-obstructed dates, and 82 dates with no Sentinel-2 observation. Classification uses an **80% AOI coverage / 80% clear-area threshold**, based on Sentinel-2 scene classification (SCL); the cloud-screening results are preliminary. **No observation ≠ cloudy day.** Known NISAR dates in this study: **12 August and 5 September**; this is **not a full acquisition inventory**.
 
 ### 3. Evidence checks
 
-<a href="screenshots/validation-overview.png"><img src="screenshots/validation-overview.png" alt="validation-overview interface preview" width="1000"></a>
+<a href="screenshots/validation-summary.svg"><img src="screenshots/validation-summary.svg" alt="Clear, scalable visualization of the low-precision validation results: 60.98 percent recall and 0.110 percent precision" width="1000"></a>
+
+*Readable vector summary of the separate Case 2 validation, not a browser screenshot.*
 
 The Jatoi radar-change candidates were checked against Sentinel-2 optical observations and Copernicus Global Flood Monitoring (GFM), rather than labelled as flooding by default.
 
@@ -70,7 +74,7 @@ The Jatoi radar-change candidates were checked against Sentinel-2 optical observ
 
 ### 4. Validation and limitations
 
-<a href="screenshots/validation-results.jpg"><img src="screenshots/validation-results.jpg" alt="validation-results interface preview" width="1000"></a>
+For the complete six-rule table and evidence notes, open the [live Validation section](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#validation) and select **Case 2**. The source data are available in [`data/threshold_validation.json`](data/threshold_validation.json).
 
 A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
 
