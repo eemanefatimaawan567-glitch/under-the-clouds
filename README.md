@@ -1,79 +1,146 @@
-# Under the Clouds
+# Under the Clouds ☁️🛰️
 
-**NASA NISAR surface-change intelligence — Jatoi and Muzaffargarh, Pakistan**
+**NASA Space Apps Challenge 2026 · Dancing with the SARs**  
+**An evidence-first NISAR radar-change explorer for Jatoi and Muzaffargarh, Pakistan**
 
-Under the Clouds is a bilingual (English / Urdu) interactive web demonstration that investigates changes visible to radar when optical observations are absent or obscured. It combines exploratory **NASA NISAR** change candidates with **Sentinel-2**, **Copernicus Global Flood Monitoring (GFM)** and **JRC Global Surface Water** reference checks.
+> **Research demonstration, not a confirmed flood map or operational flood alert.** A radar change is a candidate for investigation—not proof of flooding.
 
-> **Not a confirmed flood map or operational flood warning system.** Radar change does not by itself establish flooding. Our independent checks did not confirm the Jatoi change candidates as flood extent.
+[**Explore the live demo**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) · [Methodology](METHOD.md) · [30-second demo script](DEMO_SCRIPT_30_SECONDS.md)
 
-## Live demonstration
+## Project overview
 
-This is a static website with no build tooling required. Open the published GitHub Pages URL once deployed, or run locally:
+Monsoon clouds can limit optical Earth observation. **Under the Clouds** combines NASA–ISRO **NISAR L-band SAR observations** with optical and independent flood-reference checks to help people explore where the surface changed, whether optical imagery was available, and what the evidence does—and does not—support. The bilingual (English/Urdu) site shows exploratory candidates in **Jatoi** and a separate **Muzaffargarh** study, with transparent validation and an exportable field-verification list.
+
+![Actual Under the Clouds homepage, showing the Urdu interface and cinematic Earth graphic](screenshots/homepage.jpg)
+
+## How it works — research workflow
+
+```mermaid
+flowchart TD
+    A[Select study area and acquisition dates] --> B[NASA NISAR GCOV L-band SAR\nHH / HV observations]
+    B --> C[Mask, align and compare\nsame-mode radar acquisitions]
+    C --> D[Exploratory radar-change\ncandidate polygons]
+    D --> E{Independent evidence checks}
+    E --> F[Sentinel-2 optical screening\nwater indications and coverage]
+    E --> G[Copernicus GFM flood reference\noverlap and date limitations]
+    E --> H[JRC historical surface water\ncontext, not 2026 ground truth]
+    F --> I[Evidence and uncertainty\nnot automatically a flood]
+    G --> I
+    H --> I
+    I --> J[Interactive map + validation dashboard\nfield-verification CSV]
+    K[Sentinel-2 SCL observations\n17 Jun–13 Nov 2026] --> L[150-day optical availability timeline\n56 usable / 12 obstructed / 82 not observed]
+    L --> J
+    N[Known NISAR study dates\n12 Aug and 5 Sep] --> L
+```
+
+**Reading the flow:** We do **not** train a successful flood classifier or claim that change pixels are inundated. The independent comparisons are used to *challenge* the radar-change interpretation. The Blind Days calendar measures optical-observation availability separately from the spatial candidate screening.
+
+## Website screenshots — captured from the working demo
+
+These are screenshots captured from the team's **actual local browser screen recording** on 14 November 2026; they are not AI-generated mockups. For the latest interactive version, open the live demo above once GitHub Pages is enabled.
+
+### 1. Interactive radar-change explorer
+
+![Interactive Jatoi map, candidate layer controls and study-area map](screenshots/explorer.jpg)
+
+Shows exploratory radar-change overlays on a map. Orange shapes are **not verified flood extent**; reference layers and study boundaries have separate legends.
+
+### 2. Blind Days — optical observation calendar
+
+![Blind Days dashboard showing 56 usable, 12 obstructed and 82 no-observation dates](screenshots/blind-days.jpg)
+
+**17 June–13 November 2026 (150 calendar days):** 56 Sentinel-2 optical-usable dates, 12 observed-but-obstructed dates, and 82 dates with no Sentinel-2 observation. Classification uses an **80% AOI coverage / 80% clear-area threshold**, based on Sentinel-2 scene classification (SCL); the cloud-screening results are preliminary. **No observation ≠ cloudy day.** Known NISAR dates in this study: **12 August and 5 September**; this is **not a full acquisition inventory**.
+
+### 3. Evidence checks
+
+![Evidence dashboard comparing radar candidates with independent optical and flood references](screenshots/validation-overview.jpg)
+
+The Jatoi radar-change candidates were checked against Sentinel-2 optical observations and Copernicus Global Flood Monitoring (GFM), rather than labelled as flooding by default.
+
+### 4. Validation and limitations
+
+![Validation section displaying low precision, recall and experimental threshold comparisons](screenshots/validation-results.jpg)
+
+A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
+
+## Key findings
+
+| Measurement | Result | What it means |
+|---|---:|---|
+| Jatoi stable radar-change clusters | **290** | Exploratory change candidates, not confirmed flooding |
+| Candidate pixels | **5,679** | 10 m analysis grid; approximately **0.568 km²** |
+| Jatoi candidate pixels screened using Sep 4 Sentinel-2 | **4,759 / 5,679 (83.8%)** | Spatial screening coverage; **not** the Blind Days metric |
+| Optical water indications in screened candidate pixels | **0** | No optical confirmation in assessed pixels, not proof of absence |
+| Candidate overlap with 27 Aug Copernicus GFM reference | **0** | Date mismatch limits the inference |
+| Sentinel-2 calendar: usable / obstructed / no observation | **56 / 12 / 82** | 150-day observation availability and quality screen |
+| Separate Case 2 GFM comparison | **60.98% recall / 0.110% precision** | Unreliable as a flood classifier |
+
+## What judges can explore
+
+1. Open **Explore Map**, switch between Jatoi and the **separate exploratory Muzaffargarh case**, and inspect candidate overlays.
+2. Open **Blind Days** to explore 150 dated optical-observation states and known NISAR study acquisitions.
+3. Open **Validation** to see mismatches, false alarms and explicit uncertainty.
+4. Export the **field-verification CSV** for investigating candidate polygon centroids. These points are **not confirmed flood or breach coordinates**.
+5. Toggle **English / اردو** to use the bilingual interface.
+
+## Repository layout
+
+```text
+under-the-clouds/
+├── index.html                  # Static frontend entry point
+├── styles.css                  # Responsive interface styles
+├── app.js                      # Explorer, evidence and interaction logic
+├── calendar.js                 # Blind Days timeline
+├── assets/                     # Research imagery used by the website
+├── data/                       # GeoJSON, evidence, validation and calendar data
+│   ├── jatoi_clusters.geojson
+│   ├── muzaffargarh_candidates.geojson
+│   ├── calendar.json
+│   ├── blind_days_summary.json
+│   └── field_verification_candidates.csv
+├── screenshots/                # Actual browser recording stills
+├── METHOD.md                   # Science methods and limitations
+└── README.md
+```
+
+## Run locally
+
+No build step or backend is required. From the repository root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000` in a browser. The basemap and Leaflet library require internet access; research data are bundled in `data/`.
+Visit **http://localhost:8000**. Leaflet and online basemap tiles require an internet connection; the derived research data are bundled locally. To publish, configure **GitHub Settings → Pages → Deploy from a branch → main → / (root)**. Test the deployed URL while signed out.
 
-## What we measured
+## Sources and scientific provenance
 
-| Result | Finding | Interpretation |
-|---|---:|---|
-| Jatoi exploratory radar-change clusters | 290 | Stable candidate polygons, **not flood extent** |
-| Jatoi candidate grid pixels | 5,679 | Approx. 0.568 km² on 10 m grid |
-| Optical screening of Jatoi candidates | 4,759 / 5,679 (83.8%) | Spatial coverage of the Sep 4 optical comparison; **not** daily cloud availability |
-| Optical water indications among screened candidates | 0 | Does not prove flooding was impossible |
-| Overlap of Jatoi candidates with Aug 27 GFM flood-reference pixels | 0 | Reference and radar-acquisition dates differ |
-| Separate July–August Case 2 holdout | 60.98% recall; 0.110% precision; ROC AUC 0.651 | Insufficient for reliable flood detection |
+- **NASA / ISRO NISAR L-band GCOV SAR data** — source of HH/HV radar change analysis.
+- **Copernicus Sentinel-2** — optical surface and scene-classification screening.
+- **Copernicus Global Flood Monitoring (GFM)** — independent radar-derived flood-reference comparison; **not ground truth**.
+- **JRC Global Surface Water** — historical water context (1984–2021), **not** 2026 flood confirmation.
+- **Leaflet**, **OpenStreetMap contributors** and **Esri** — map user interface and basemaps, with attribution in the app.
 
-### Blind Days — 17 June to 13 November 2026
+Details and caveats: [METHOD.md](METHOD.md). Derived output files are provided for transparency, not a complete archive of every original satellite product or processing notebook. Original data and third-party assets remain subject to their respective licenses and attribution terms.
 
-Sentinel-2 optical coverage was screened over a 150-day window, with **80% minimum AOI coverage and 80% clear-area thresholds**. These SCL-based classifications are preliminary and need independent cloud-mask quality assurance.
+## Limitations — what we do not claim
 
-- **56** optical-usable observation dates
-- **12** optical-obstructed observation dates
-- **82** dates with **no Sentinel-2 observation** (these are **not** necessarily cloudy)
-- **2 known study NISAR passes**: 12 August and 5 September (inventory **not** complete)
+- We **do not** claim confirmed flooding, reliable flood forecasts, validated flood extent, or operational alerts.
+- Some radar-change candidates may reflect agriculture, moisture, land-cover or processing effects; their causes are **not established**.
+- Independent comparison dates do not perfectly align with the NISAR acquisitions.
+- The Blind Days calendar uses preliminary SCL-based cloud masks; no-observation days should not be described as cloudy days.
+- The two known Jatoi NISAR study dates do not constitute a complete NISAR coverage inventory.
 
-The interactive dated calendar is based on `data/calendar.json`; `data/blind_days_summary.json` contains the aggregate counts. These are **not** the same metric as the 83.8% optical screening coverage.
+## License, AI disclosure and acknowledgments
 
-## What the application does
+The team's original repository code may be shared under the included **MIT License** (`LICENSE`) if the team owns or is authorized to license all included code. This license **does not relicense** NASA, Copernicus, JRC, OSM, Esri or other third-party data, tiles and assets; preserve each source's attribution and permissions.
 
-- Interactive maps of Jatoi and a separate exploratory Muzaffargarh case
-- Radar-change candidate overlays with scientific caveats
-- Reference data comparisons and validation statistics
-- Dated optical-coverage calendar with known NISAR study markers
-- Field-verification candidate CSV export; coordinates are **polygon centroids, not verified flood or breach coordinates**
-- English and Urdu views
+**AI disclosure:** OpenAI **ChatGPT** and Anthropic **Claude** assisted with code drafting/debugging, documentation and scientific-communication framing. The team is responsible for evaluating the generated material and verifying data, calculations and claims. The website's screenshots are captured from an actual browser demo, not AI-generated screenshots. Disclose any additional generated images, videos or audio in the project submission, with visible watermarking where required by the event.
 
-## Method and reproducibility
+## NASA Space Apps submission
 
-Read [METHOD.md](METHOD.md) for methodology, data limitations and the difference between candidate mapping and flood validation. The project includes derived GeoJSON, CSV and evidence JSON files for the front end, not the complete original satellite scene archive or every Colab processing notebook.
-
-## Data and acknowledgments
-
-- NASA / ISRO — **NISAR** L-band radar GCOV data
-- ESA / European Commission Copernicus — **Sentinel-2** imagery
-- Copernicus — **Global Flood Monitoring (GFM)** reference detections
-- European Commission Joint Research Centre — **Global Surface Water** historical-water context
-- OpenStreetMap contributors — street basemap; Esri — imagery basemap
-- Leaflet contributors — mapping library
-
-Original satellite and reference products retain their respective licenses and usage terms. This repository provides derived research outputs, not ownership of those source products.
-
-## AI assistance disclosure
-
-**ChatGPT (OpenAI) and Claude (Anthropic)** assisted with code drafting, debugging, documentation and framing. Satellite processing, scientific validation, outputs and uncertainty remain the team's responsibility. Verify the exact tools used by each team member before submission; this disclosure is based on the project's stated workflow.
-
-## What we do *not* claim
-
-- No validated flood extent, calibrated flood alert, or field-confirmed inundation
-- No high flood-detection accuracy: the separate Case 2 test had very low precision
-- No complete inventory of NISAR acquisitions across the study window
-- No claim that a day without Sentinel-2 imagery was cloud-covered
-- No proof that radar changes are agricultural or flood-related without independent evidence
-
-## Submission
-
-See [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md) and [DEMO_SCRIPT_30_SECONDS.md](DEMO_SCRIPT_30_SECONDS.md). **Confirm event-specific deadlines and video limits with the actual event organizers and submission portal.**
+- Project title: **Under the Clouds**
+- Challenge: **Dancing with the SARs** (confirm exact selectable title in the 2026 Project tab)
+- Deliverables: a **public live website**, **public repository**, and a **separate demo link**.
+- See [DEMO_SCRIPT_30_SECONDS.md](DEMO_SCRIPT_30_SECONDS.md) and [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
+- Confirm current event requirements in the official portal and submit before the published deadline.
