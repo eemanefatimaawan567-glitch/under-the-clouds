@@ -11,7 +11,7 @@
 
 Monsoon clouds can limit optical Earth observation. **Under the Clouds** combines NASA–ISRO **NISAR L-band SAR observations** with optical and independent flood-reference checks to help people explore where the surface changed, whether optical imagery was available, and what the evidence does—and does not—support. The bilingual (English/Urdu) site shows exploratory candidates in **Jatoi** and a separate **Muzaffargarh** study, with transparent validation and an exportable field-verification list.
 
-<a href="screenshots/homepage.jpg"><img src="screenshots/homepage.jpg" alt="Actual Under the Clouds homepage preview" width="420"></a>
+<a href="screenshots/homepage.png"><img src="screenshots/homepage.png" alt="Actual Under the Clouds homepage preview" width="1000"></a>
 
 **High-resolution research image:** [Jatoi NISAR observation comparison](assets/jatoi_before_after.png)
 
@@ -41,28 +41,28 @@ flowchart TD
 
 ## Website screenshots and full-resolution research figures
 
-These small interface previews came from the team's **actual local browser screen recording** on 14 November 2026; they are not AI-generated mockups. The original screenshot previews were overcompressed. The larger images below are **real research figures from the project**, not browser screenshots. Open the live demo to inspect interface text at full resolution.
+These full-resolution interface screenshots come from the team's **actual local browser screen recording** on 14 November 2026; they are not AI-generated mockups. The original screenshot previews were overcompressed; they have been replaced with automated full-resolution browser captures. The larger images below are **real research figures from the project**, not browser screenshots. Open the live demo to inspect interface text at full resolution.
 
-> **Image clarity:** The small UI thumbnails below are previews only. For readable scientific figures, use the full-resolution images provided alongside them. Open the [interactive website](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) to explore the interface at full size.
+> **Image clarity:** Click any screenshot to open its full-resolution PNG. For complete interaction, use the [live website](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/).
 
 
 ### 1. Interactive radar-change explorer
 
 ![High-resolution NISAR Jatoi radar-change figure](assets/jatoi_radar_change.png)
 
-<a href="screenshots/explorer.jpg"><img src="screenshots/explorer.jpg" alt="explorer interface preview" width="420"></a>
+<a href="screenshots/explorer.png"><img src="screenshots/explorer.png" alt="explorer interface preview" width="1000"></a>
 
 Shows exploratory radar-change overlays on a map. Orange shapes are **not verified flood extent**; reference layers and study boundaries have separate legends.
 
 ### 2. Blind Days — optical observation calendar
 
-<a href="screenshots/blind-days.jpg"><img src="screenshots/blind-days.jpg" alt="blind-days interface preview" width="420"></a>
+<a href="screenshots/blind-days.png"><img src="screenshots/blind-days.png" alt="blind-days interface preview" width="1000"></a>
 
 **17 June–13 November 2026 (150 calendar days):** 56 Sentinel-2 optical-usable dates, 12 observed-but-obstructed dates, and 82 dates with no Sentinel-2 observation. Classification uses an **80% AOI coverage / 80% clear-area threshold**, based on Sentinel-2 scene classification (SCL); the cloud-screening results are preliminary. **No observation ≠ cloudy day.** Known NISAR dates in this study: **12 August and 5 September**; this is **not a full acquisition inventory**.
 
 ### 3. Evidence checks
 
-<a href="screenshots/validation-overview.jpg"><img src="screenshots/validation-overview.jpg" alt="validation-overview interface preview" width="420"></a>
+<a href="screenshots/validation-overview.png"><img src="screenshots/validation-overview.png" alt="validation-overview interface preview" width="1000"></a>
 
 The Jatoi radar-change candidates were checked against Sentinel-2 optical observations and Copernicus Global Flood Monitoring (GFM), rather than labelled as flooding by default.
 
@@ -70,7 +70,7 @@ The Jatoi radar-change candidates were checked against Sentinel-2 optical observ
 
 ### 4. Validation and limitations
 
-<a href="screenshots/validation-results.jpg"><img src="screenshots/validation-results.jpg" alt="validation-results interface preview" width="420"></a>
+<a href="screenshots/validation-results.jpg"><img src="screenshots/validation-results.jpg" alt="validation-results interface preview" width="1000"></a>
 
 A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
 
