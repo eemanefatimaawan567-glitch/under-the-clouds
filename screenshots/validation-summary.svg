@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="840" viewBox="0 0 1500 840" role="img" aria-label="Validation summary with 60.98 percent recall, 0.110 percent precision and low reference agreement">
+<rect width="1500" height="840" fill="#061522"/>
+<text x="67" y="79" fill="#75e4d5" font-family="Arial" font-size="27" letter-spacing="6" font-weight="bold">UNDER THE CLOUDS · SCIENTIFIC VALIDATION</text>
+<text x="67" y="150" fill="#f4fcff" font-family="Arial" font-size="56" font-weight="bold">Evidence over assumptions</text>
+<text x="67" y="203" fill="#b1cbd4" font-family="Arial" font-size="26">Separate Jatoi Case 2 · 7 July–24 August 2026 · SE holdout against GFM reference</text>
+<rect x="65" y="244" width="650" height="258" rx="19" fill="#11303e" stroke="#346074" stroke-width="2"/>
+<rect x="765" y="244" width="670" height="258" rx="19" fill="#11303e" stroke="#346074" stroke-width="2"/>
+<text x="106" y="310" fill="#b4d5db" font-family="Arial" font-size="31">Recall</text>
+<text x="106" y="414" fill="#62edda" font-family="Arial" font-size="96" font-weight="bold">60.98%</text>
+<text x="808" y="310" fill="#b4d5db" font-family="Arial" font-size="31">Precision</text>
+<text x="808" y="414" fill="#ffc17d" font-family="Arial" font-size="96" font-weight="bold">0.110%</text>
+<text x="106" y="464" fill="#acc8d3" font-family="Arial" font-size="25">TP 50 · FN 32</text>
+<text x="808" y="464" fill="#acc8d3" font-family="Arial" font-size="25">FP 45,478 · approx. 1 in 911 flagged pixels matched GFM</text>
+<rect x="65" y="540" width="1370" height="106" rx="18" fill="#122b3c" stroke="#356377" stroke-width="2"/>
+<text x="107" y="591" fill="#dbeff3" font-family="Arial" font-size="31">ROC AUC</text>
+<text x="335" y="591" fill="#f4fcff" font-family="Arial" font-size="34" font-weight="bold">0.651</text>
+<text x="610" y="591" fill="#dbeff3" font-family="Arial" font-size="31">F1 score</text>
+<text x="814" y="591" fill="#f4fcff" font-family="Arial" font-size="34" font-weight="bold">0.219%</text>
+<text x="107" y="625" fill="#b7cbd1" font-family="Arial" font-size="22">Reference prevalence ~0.078% · GFM is not ground truth · date mismatch exists</text>
+<rect x="65" y="684" width="1370" height="105" rx="18" fill="#332a24" stroke="#df9c52" stroke-width="2"/>
+<text x="101" y="738" fill="#ffe0ad" font-family="Arial" font-size="31" font-weight="bold">Flood-detection accuracy was NOT established.</text>
+<text x="101" y="772" fill="#f4d5b1" font-family="Arial" font-size="23">Exploratory changes are not confirmed inundation or emergency alerts.</text>
+</svg>
