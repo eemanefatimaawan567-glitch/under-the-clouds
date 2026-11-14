@@ -62,3 +62,21 @@ body[lang="ur"] .hero-note{direction:rtl;font-family:"Noto Nastaliq Urdu",serif;
 body[lang="ur"] .daily-calendar-wrap [data-polish-ur],body[lang="ur"] .daily-date-info{direction:rtl;line-height:2}
 @media(max-width:900px){.daily-calendar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.daily-calendar-wrap{padding:13px}.daily-calendar-grid{grid-template-columns:1fr}.cal-month{padding:13px}.cal-day{font-size:12px}.daily-legend{gap:10px}}
+
+/* Evidence confidence interpretation: categorical evidence, not flood probabilities */
+.evidence-confidence{margin:26px 0;padding:26px;border-radius:14px;background:#0b2535;border:1px solid #2d5263;color:#d7e9eb}
+.evidence-head h3{font-size:clamp(21px,2.3vw,30px);color:#e4fff9;margin:11px 0 7px}
+.evidence-head p,.evidence-status p,.evidence-case-results p,.evidence-caution{color:#aac3cf;line-height:1.75;font-size:13px}
+.evidence-status-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}
+.evidence-status{border:1px solid #2a5061;border-radius:10px;background:#102e40;padding:17px}
+.evidence-status h4{color:#f0fcfa;font-size:15px;margin:10px 0}
+.evidence-status p{margin:0}
+.evidence-dot{width:11px;height:11px;display:inline-block;border-radius:50%;background:#80bdbd}
+.evidence-supported .evidence-dot{background:#57c99e}.evidence-unconfirmed .evidence-dot{background:#efb56e}.evidence-insufficient .evidence-dot{background:#93a0b5}
+.evidence-case-results{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.evidence-case-results>div{padding:18px;background:#0b1f2d;border:1px solid #2b4757;border-radius:10px}
+.evidence-case-results strong{font-size:13px;color:#99e7dc}
+.evidence-case-results p{margin:10px 0 0}
+.evidence-caution{margin:18px 0 0;border-top:1px solid #315061;padding-top:16px}
+body[lang="ur"] .evidence-confidence [data-polish-ur]{direction:rtl;line-height:2.1;font-family:'Noto Nastaliq Urdu',serif}
+@media(max-width:800px){.evidence-status-grid,.evidence-case-results{grid-template-columns:1fr}.evidence-confidence{padding:18px}}
