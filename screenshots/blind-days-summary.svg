@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img" aria-label="Measured Blind Days summary: 56 usable, 12 obstructed, 82 no observation across 150 days">
+<rect width="1500" height="760" fill="#061522"/>
+<text x="70" y="88" fill="#75e4d5" font-family="Arial,sans-serif" font-weight="700" font-size="27" letter-spacing="6">UNDER THE CLOUDS · MEASURED OBSERVATIONS</text>
+<text x="70" y="164" fill="#f2fcff" font-family="Arial,sans-serif" font-weight="bold" font-size="58">Blind Days | Jatoi, Pakistan</text>
+<text x="70" y="217" fill="#b0cbd5" font-family="Arial,sans-serif" font-size="27">17 June – 13 November 2026 · 150 calendar days · Sentinel-2 SCL screening</text>
+<rect x="65" y="275" width="420" height="208" rx="18" fill="#112d3a" stroke="#305968" stroke-width="2"/>
+<rect x="540" y="275" width="420" height="208" rx="18" fill="#112d3a" stroke="#305968" stroke-width="2"/>
+<rect x="1015" y="275" width="420" height="208" rx="18" fill="#112d3a" stroke="#305968" stroke-width="2"/>
+<text x="102" y="332" fill="#afd7d9" font-family="Arial" font-size="26">Optical usable</text>
+<text x="102" y="426" fill="#5befc8" font-family="Arial" font-size="89" font-weight="bold">56</text>
+<text x="577" y="332" fill="#afd7d9" font-family="Arial" font-size="26">Optical obstructed</text>
+<text x="577" y="426" fill="#ffb766" font-family="Arial" font-size="89" font-weight="bold">12</text>
+<text x="1052" y="332" fill="#afd7d9" font-family="Arial" font-size="26">No observation</text>
+<text x="1052" y="426" fill="#b6c5d7" font-family="Arial" font-size="89" font-weight="bold">82</text>
+<rect x="70" y="520" width="1360" height="43" rx="14" fill="#6b7b92"/>
+<rect x="70" y="520" width="507.73" height="43" rx="12" fill="#29c9a7"/>
+<rect x="570" y="520" width="116.8" height="43" fill="#f5a455"/>
+<text x="70" y="617" fill="#e0f1f3" font-family="Arial" font-size="30" font-weight="bold">68 observed dates</text>
+<text x="405" y="617" fill="#b8d2d8" font-family="Arial" font-size="28">56 / 68 usable (82.4%)</text>
+<text x="70" y="666" fill="#a7c4ce" font-family="Arial" font-size="24">Known NISAR study acquisitions: 12 Aug &amp; 5 Sep 2026 (incomplete inventory)</text>
+<text x="70" y="709" fill="#f5c18e" font-family="Arial" font-size="23">No-observation dates are NOT automatically cloudy days. Cloud mask is preliminary; 80% clear threshold.</text>
+</svg>
