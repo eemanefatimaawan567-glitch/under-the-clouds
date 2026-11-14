@@ -1,0 +1,12 @@
+{
+  "gfm_date": "2026-09-04",
+  "nisar_post_date": "2026-09-05",
+  "tiles_used": 4,
+  "radar_candidates": 5679,
+  "gfm_valid_eligible_pixels": 75917,
+  "gfm_flood_eligible_pixels": 0,
+  "candidates_with_gfm_coverage": 87,
+  "overlap_pixels": 0,
+  "tile_conflict_pixels": 0,
+  "note": "Cross-sensor, one-day-offset spatial agreement. Not ground-truth accuracy or confirmed NISAR flood extent."
+}

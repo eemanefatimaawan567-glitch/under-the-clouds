@@ -1,0 +1,10 @@
+{
+  "gfm_date": "2026-08-27",
+  "nisar_comparison_date": "2026-09-05",
+  "nisar_candidate_pixels": 5679,
+  "gfm_flood_pixels_on_nisar_grid": 310,
+  "candidate_flood_overlap_pixels": 0,
+  "candidate_overlap_percent": 0.0,
+  "independent_reference": "Copernicus GFM Sentinel-1",
+  "warning": "Dates differ by nine days. This is spatial cross-date agreement, not precision, recall, or confirmation of September 5 flooding."
+}

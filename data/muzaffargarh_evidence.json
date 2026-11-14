@@ -1,0 +1,27 @@
+{
+  "project": "Under the Clouds",
+  "study_area": "Muzaffargarh, Pakistan",
+  "data_sources": [
+    "NASA NISAR GCOV radar",
+    "Copernicus Sentinel-2 surface reflectance"
+  ],
+  "study_area_cluster_count": 8,
+  "candidate_area_inside_AOI_km2": 0.021792,
+  "aug29_clusters_with_valid_optical_pixels": 8,
+  "aug29_clusters_with_positive_max_MNDWI": 0,
+  "candidate_sample_count": 16,
+  "candidate_samples_with_positive_MNDWI": 0,
+  "candidate_mean_NDVI_change": -0.0509,
+  "independent_ground_truth_available": false,
+  "confirmed_flood_area_km2": null,
+  "classification_accuracy": null,
+  "scientific_status": "Exploratory radar-change detection; flood extent not independently validated.",
+  "limitations": [
+    "Low radar backscatter is not uniquely caused by flooding",
+    "Negative MNDWI does not conclusively exclude flooding",
+    "Optical imagery may contain cloud or classification uncertainty",
+    "Small polygons are sensitive to pixel alignment",
+    "Samples are preliminary and not a representative accuracy design",
+    "No independent reference labels or confusion matrix"
+  ]
+}

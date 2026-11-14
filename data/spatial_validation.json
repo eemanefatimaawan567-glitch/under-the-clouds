@@ -1,0 +1,24 @@
+{
+  "case": "Jatoi July 7 vs August 24",
+  "reference": "GFM August 27",
+  "training_region": "Northwest",
+  "testing_region": "Southeast",
+  "training_flood_pixels": 260,
+  "testing_flood_pixels": 82,
+  "TP": 50,
+  "FP": 45478,
+  "FN": 32,
+  "TN": 59530,
+  "precision": 0.0010982252679669654,
+  "recall": 0.6097560975609756,
+  "f1": 0.0021925016443762333,
+  "roc_auc": 0.6505498535767775,
+  "average_precision": 0.0011368622253438094,
+  "limitations": [
+    "GFM is not independently verified ground truth.",
+    "Radar and GFM dates differ.",
+    "July-August radar baseline is 48 days.",
+    "Spatially correlated pixels are not independent samples.",
+    "Only HH/HV change features used."
+  ]
+}

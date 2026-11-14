@@ -1,0 +1,463 @@
+case,candidate_id,latitude,longitude,pixel_count,area_km2,evidence_state,flood_confirmed
+jatoi,1,29.585459,70.881881,13,0.0013,unvalidated_radar_change,no
+jatoi,2,29.584831,70.894442,15,0.0015,unvalidated_radar_change,no
+jatoi,3,29.582749,70.887479,19,0.0019,unvalidated_radar_change,no
+jatoi,4,29.576872,70.881515,13,0.0013,unvalidated_radar_change,no
+jatoi,5,29.57471,70.893941,27,0.0027,unvalidated_radar_change,no
+jatoi,6,29.562609,70.772202,15,0.0015,unvalidated_radar_change,no
+jatoi,7,29.560959,70.777893,9,0.0009,unvalidated_radar_change,no
+jatoi,8,29.560354,70.778982,26,0.0026,unvalidated_radar_change,no
+jatoi,9,29.559455,70.780991,19,0.0019,unvalidated_radar_change,no
+jatoi,10,29.557507,70.787843,9,0.0009,unvalidated_radar_change,no
+jatoi,11,29.556573,70.773692,52,0.0052,unvalidated_radar_change,no
+jatoi,12,29.556177,70.774331,39,0.0039,unvalidated_radar_change,no
+jatoi,13,29.556048,70.77537,11,0.0011,unvalidated_radar_change,no
+jatoi,14,29.555655,70.774049,13,0.0013,unvalidated_radar_change,no
+jatoi,15,29.554888,70.773801,15,0.0015,unvalidated_radar_change,no
+jatoi,16,29.554753,70.772993,13,0.0013,unvalidated_radar_change,no
+jatoi,17,29.552796,70.795566,17,0.0017,unvalidated_radar_change,no
+jatoi,18,29.552592,70.779788,9,0.0009,unvalidated_radar_change,no
+jatoi,19,29.552108,70.787541,17,0.0017,unvalidated_radar_change,no
+jatoi,20,29.551428,70.797072,17,0.0017,unvalidated_radar_change,no
+jatoi,21,29.551312,70.795341,35,0.0035,unvalidated_radar_change,no
+jatoi,22,29.551329,70.791387,18,0.0018,unvalidated_radar_change,no
+jatoi,23,29.550657,70.797033,28,0.0028,unvalidated_radar_change,no
+jatoi,24,29.550801,70.791896,10,0.001,unvalidated_radar_change,no
+jatoi,25,29.550656,70.795248,21,0.0021,unvalidated_radar_change,no
+jatoi,26,29.550635,70.789906,19,0.0019,unvalidated_radar_change,no
+jatoi,27,29.549833,70.795858,15,0.0015,unvalidated_radar_change,no
+jatoi,28,29.549869,70.790073,10,0.001,unvalidated_radar_change,no
+jatoi,29,29.549537,70.796641,10,0.001,unvalidated_radar_change,no
+jatoi,30,29.547231,70.808037,12,0.0012,unvalidated_radar_change,no
+jatoi,31,29.5456,70.793002,36,0.0036,unvalidated_radar_change,no
+jatoi,32,29.545563,70.798242,10,0.001,unvalidated_radar_change,no
+jatoi,33,29.544552,70.836651,11,0.0011,unvalidated_radar_change,no
+jatoi,34,29.543847,70.777029,53,0.0053,unvalidated_radar_change,no
+jatoi,35,29.543236,70.789055,15,0.0015,unvalidated_radar_change,no
+jatoi,36,29.54301,70.790685,39,0.0039,unvalidated_radar_change,no
+jatoi,37,29.543194,70.777871,13,0.0013,unvalidated_radar_change,no
+jatoi,38,29.542319,70.777254,14,0.0014,unvalidated_radar_change,no
+jatoi,39,29.539648,70.835824,16,0.0016,unvalidated_radar_change,no
+jatoi,40,29.540225,70.790929,23,0.0023,unvalidated_radar_change,no
+jatoi,41,29.540098,70.788033,10,0.001,unvalidated_radar_change,no
+jatoi,42,29.538291,70.864819,16,0.0016,unvalidated_radar_change,no
+jatoi,43,29.538153,70.864204,12,0.0012,unvalidated_radar_change,no
+jatoi,44,29.538471,70.792986,102,0.0102,unvalidated_radar_change,no
+jatoi,45,29.538352,70.785293,16,0.0016,unvalidated_radar_change,no
+jatoi,46,29.537631,70.799324,11,0.0011,unvalidated_radar_change,no
+jatoi,47,29.537146,70.772299,14,0.0014,unvalidated_radar_change,no
+jatoi,48,29.53707,70.781521,30,0.003,unvalidated_radar_change,no
+jatoi,49,29.537096,70.783897,16,0.0016,unvalidated_radar_change,no
+jatoi,50,29.536675,70.774336,13,0.0013,unvalidated_radar_change,no
+jatoi,51,29.536529,70.794,15,0.0015,unvalidated_radar_change,no
+jatoi,52,29.536358,70.796769,17,0.0017,unvalidated_radar_change,no
+jatoi,53,29.536444,70.788539,9,0.0009,unvalidated_radar_change,no
+jatoi,54,29.536256,70.792067,9,0.0009,unvalidated_radar_change,no
+jatoi,55,29.535327,70.855853,11,0.0011,unvalidated_radar_change,no
+jatoi,56,29.535198,70.855279,18,0.0018,unvalidated_radar_change,no
+jatoi,57,29.536287,70.77479,9,0.0009,unvalidated_radar_change,no
+jatoi,58,29.53594,70.793528,15,0.0015,unvalidated_radar_change,no
+jatoi,59,29.536271,70.773294,10,0.001,unvalidated_radar_change,no
+jatoi,60,29.536027,70.773569,14,0.0014,unvalidated_radar_change,no
+jatoi,61,29.535751,70.792333,9,0.0009,unvalidated_radar_change,no
+jatoi,62,29.534852,70.82961,9,0.0009,unvalidated_radar_change,no
+jatoi,63,29.535586,70.774732,9,0.0009,unvalidated_radar_change,no
+jatoi,64,29.535269,70.773546,17,0.0017,unvalidated_radar_change,no
+jatoi,65,29.534655,70.816438,14,0.0014,unvalidated_radar_change,no
+jatoi,66,29.534748,70.774529,30,0.003,unvalidated_radar_change,no
+jatoi,67,29.534348,70.775663,19,0.0019,unvalidated_radar_change,no
+jatoi,68,29.534237,70.773619,19,0.0019,unvalidated_radar_change,no
+jatoi,69,29.532666,70.886991,22,0.0022,unvalidated_radar_change,no
+jatoi,70,29.534126,70.778814,11,0.0011,unvalidated_radar_change,no
+jatoi,71,29.532229,70.881965,11,0.0011,unvalidated_radar_change,no
+jatoi,72,29.53288,70.803712,9,0.0009,unvalidated_radar_change,no
+jatoi,73,29.532969,70.787395,11,0.0011,unvalidated_radar_change,no
+jatoi,74,29.531724,70.860346,10,0.001,unvalidated_radar_change,no
+jatoi,75,29.530069,70.871257,20,0.002,unvalidated_radar_change,no
+jatoi,76,29.530664,70.774274,20,0.002,unvalidated_radar_change,no
+jatoi,77,29.527484,70.885822,13,0.0013,unvalidated_radar_change,no
+jatoi,78,29.527115,70.89483,14,0.0014,unvalidated_radar_change,no
+jatoi,79,29.527236,70.867408,16,0.0016,unvalidated_radar_change,no
+jatoi,80,29.527688,70.804952,10,0.001,unvalidated_radar_change,no
+jatoi,81,29.526315,70.894634,16,0.0016,unvalidated_radar_change,no
+jatoi,82,29.526868,70.820357,61,0.0061,unvalidated_radar_change,no
+jatoi,83,29.527036,70.821356,11,0.0011,unvalidated_radar_change,no
+jatoi,84,29.527738,70.775337,12,0.0012,unvalidated_radar_change,no
+jatoi,85,29.527731,70.776104,11,0.0011,unvalidated_radar_change,no
+jatoi,86,29.527256,70.78656,46,0.0046,unvalidated_radar_change,no
+jatoi,87,29.526376,70.854357,10,0.001,unvalidated_radar_change,no
+jatoi,88,29.526562,70.799058,30,0.003,unvalidated_radar_change,no
+jatoi,89,29.523538,70.793026,12,0.0012,unvalidated_radar_change,no
+jatoi,90,29.522328,70.8444,10,0.001,unvalidated_radar_change,no
+jatoi,91,29.5212,70.894655,16,0.0016,unvalidated_radar_change,no
+jatoi,92,29.520231,70.89739,23,0.0023,unvalidated_radar_change,no
+jatoi,93,29.521598,70.810796,12,0.0012,unvalidated_radar_change,no
+jatoi,94,29.520237,70.891772,9,0.0009,unvalidated_radar_change,no
+jatoi,95,29.52175,70.780795,9,0.0009,unvalidated_radar_change,no
+jatoi,96,29.521205,70.822486,32,0.0032,unvalidated_radar_change,no
+jatoi,97,29.521566,70.781897,21,0.0021,unvalidated_radar_change,no
+jatoi,98,29.520345,70.857799,9,0.0009,unvalidated_radar_change,no
+jatoi,99,29.519911,70.890573,10,0.001,unvalidated_radar_change,no
+jatoi,100,29.519789,70.895541,35,0.0035,unvalidated_radar_change,no
+jatoi,101,29.520797,70.81051,15,0.0015,unvalidated_radar_change,no
+jatoi,102,29.51908,70.892919,11,0.0011,unvalidated_radar_change,no
+jatoi,103,29.518619,70.895604,116,0.0116,unvalidated_radar_change,no
+jatoi,104,29.51887,70.896947,12,0.0012,unvalidated_radar_change,no
+jatoi,105,29.518875,70.897465,10,0.001,unvalidated_radar_change,no
+jatoi,106,29.519152,70.860793,16,0.0016,unvalidated_radar_change,no
+jatoi,107,29.518795,70.890209,9,0.0009,unvalidated_radar_change,no
+jatoi,108,29.51824,70.890674,26,0.0026,unvalidated_radar_change,no
+jatoi,109,29.518361,70.897361,11,0.0011,unvalidated_radar_change,no
+jatoi,110,29.518155,70.892818,11,0.0011,unvalidated_radar_change,no
+jatoi,111,29.517416,70.896392,83,0.0083,unvalidated_radar_change,no
+jatoi,112,29.51777,70.804988,14,0.0014,unvalidated_radar_change,no
+jatoi,113,29.517715,70.804188,18,0.0018,unvalidated_radar_change,no
+jatoi,114,29.51763,70.778013,10,0.001,unvalidated_radar_change,no
+jatoi,115,29.515919,70.885104,21,0.0021,unvalidated_radar_change,no
+jatoi,116,29.515422,70.806002,22,0.0022,unvalidated_radar_change,no
+jatoi,117,29.514777,70.864368,10,0.001,unvalidated_radar_change,no
+jatoi,118,29.515491,70.79325,15,0.0015,unvalidated_radar_change,no
+jatoi,119,29.515417,70.779098,24,0.0024,unvalidated_radar_change,no
+jatoi,120,29.515335,70.779995,9,0.0009,unvalidated_radar_change,no
+jatoi,121,29.513278,70.897599,24,0.0024,unvalidated_radar_change,no
+jatoi,122,29.511858,70.892519,12,0.0012,unvalidated_radar_change,no
+jatoi,123,29.511788,70.883832,9,0.0009,unvalidated_radar_change,no
+jatoi,124,29.51239,70.827725,20,0.002,unvalidated_radar_change,no
+jatoi,125,29.511924,70.808939,12,0.0012,unvalidated_radar_change,no
+jatoi,126,29.511242,70.829598,9,0.0009,unvalidated_radar_change,no
+jatoi,127,29.510207,70.88497,13,0.0013,unvalidated_radar_change,no
+jatoi,128,29.510147,70.897612,10,0.001,unvalidated_radar_change,no
+jatoi,129,29.509872,70.888876,24,0.0024,unvalidated_radar_change,no
+jatoi,130,29.510016,70.889335,9,0.0009,unvalidated_radar_change,no
+jatoi,131,29.510719,70.816273,19,0.0019,unvalidated_radar_change,no
+jatoi,132,29.509241,70.897656,33,0.0033,unvalidated_radar_change,no
+jatoi,133,29.511038,70.779679,9,0.0009,unvalidated_radar_change,no
+jatoi,134,29.511014,70.780369,11,0.0011,unvalidated_radar_change,no
+jatoi,135,29.510412,70.790059,10,0.001,unvalidated_radar_change,no
+jatoi,136,29.510057,70.807725,14,0.0014,unvalidated_radar_change,no
+jatoi,137,29.508225,70.892128,14,0.0014,unvalidated_radar_change,no
+jatoi,138,29.508693,70.819114,11,0.0011,unvalidated_radar_change,no
+jatoi,139,29.508144,70.831846,9,0.0009,unvalidated_radar_change,no
+jatoi,140,29.506767,70.896241,19,0.0019,unvalidated_radar_change,no
+jatoi,141,29.506675,70.885632,22,0.0022,unvalidated_radar_change,no
+jatoi,142,29.506235,70.897029,37,0.0037,unvalidated_radar_change,no
+jatoi,143,29.506074,70.885887,48,0.0048,unvalidated_radar_change,no
+jatoi,144,29.5065,70.878919,15,0.0015,unvalidated_radar_change,no
+jatoi,145,29.505602,70.893078,30,0.003,unvalidated_radar_change,no
+jatoi,146,29.506596,70.820048,18,0.0018,unvalidated_radar_change,no
+jatoi,147,29.506392,70.790454,11,0.0011,unvalidated_radar_change,no
+jatoi,148,29.505012,70.877381,18,0.0018,unvalidated_radar_change,no
+jatoi,149,29.505538,70.821912,32,0.0032,unvalidated_radar_change,no
+jatoi,150,29.505634,70.798508,48,0.0048,unvalidated_radar_change,no
+jatoi,151,29.505951,70.774218,24,0.0024,unvalidated_radar_change,no
+jatoi,152,29.505858,70.775043,20,0.002,unvalidated_radar_change,no
+jatoi,153,29.505736,70.777265,18,0.0018,unvalidated_radar_change,no
+jatoi,154,29.50471,70.819834,80,0.008,unvalidated_radar_change,no
+jatoi,155,29.505269,70.803062,9,0.0009,unvalidated_radar_change,no
+jatoi,156,29.504971,70.817431,16,0.0016,unvalidated_radar_change,no
+jatoi,157,29.50487,70.798081,18,0.0018,unvalidated_radar_change,no
+jatoi,158,29.504822,70.828198,10,0.001,unvalidated_radar_change,no
+jatoi,159,29.504852,70.828673,10,0.001,unvalidated_radar_change,no
+jatoi,160,29.505166,70.794395,9,0.0009,unvalidated_radar_change,no
+jatoi,161,29.504786,70.810394,10,0.001,unvalidated_radar_change,no
+jatoi,162,29.50438,70.816148,28,0.0028,unvalidated_radar_change,no
+jatoi,163,29.504687,70.797507,12,0.0012,unvalidated_radar_change,no
+jatoi,164,29.503322,70.897525,16,0.0016,unvalidated_radar_change,no
+jatoi,165,29.502927,70.89188,12,0.0012,unvalidated_radar_change,no
+jatoi,166,29.503794,70.815681,14,0.0014,unvalidated_radar_change,no
+jatoi,167,29.502761,70.884515,24,0.0024,unvalidated_radar_change,no
+jatoi,168,29.503208,70.817415,13,0.0013,unvalidated_radar_change,no
+jatoi,169,29.502044,70.885182,18,0.0018,unvalidated_radar_change,no
+jatoi,170,29.502685,70.798025,56,0.0056,unvalidated_radar_change,no
+jatoi,171,29.503077,70.810462,11,0.0011,unvalidated_radar_change,no
+jatoi,172,29.501816,70.895858,23,0.0023,unvalidated_radar_change,no
+jatoi,173,29.501841,70.868071,10,0.001,unvalidated_radar_change,no
+jatoi,174,29.502902,70.782934,10,0.001,unvalidated_radar_change,no
+jatoi,175,29.502769,70.789649,11,0.0011,unvalidated_radar_change,no
+jatoi,176,29.502436,70.790383,39,0.0039,unvalidated_radar_change,no
+jatoi,177,29.501324,70.887226,9,0.0009,unvalidated_radar_change,no
+jatoi,178,29.502,70.822181,19,0.0019,unvalidated_radar_change,no
+jatoi,179,29.50201,70.818802,10,0.001,unvalidated_radar_change,no
+jatoi,180,29.501133,70.881776,10,0.001,unvalidated_radar_change,no
+jatoi,181,29.501039,70.89074,16,0.0016,unvalidated_radar_change,no
+jatoi,182,29.502487,70.779558,19,0.0019,unvalidated_radar_change,no
+jatoi,183,29.502492,70.780342,11,0.0011,unvalidated_radar_change,no
+jatoi,184,29.502444,70.781151,15,0.0015,unvalidated_radar_change,no
+jatoi,185,29.50069,70.897404,45,0.0045,unvalidated_radar_change,no
+jatoi,186,29.502201,70.775581,23,0.0023,unvalidated_radar_change,no
+jatoi,187,29.502097,70.776604,38,0.0038,unvalidated_radar_change,no
+jatoi,188,29.501892,70.777987,22,0.0022,unvalidated_radar_change,no
+jatoi,189,29.500434,70.891277,9,0.0009,unvalidated_radar_change,no
+jatoi,190,29.500184,70.883852,10,0.001,unvalidated_radar_change,no
+jatoi,191,29.500112,70.89762,16,0.0016,unvalidated_radar_change,no
+jatoi,192,29.500732,70.798328,55,0.0055,unvalidated_radar_change,no
+jatoi,193,29.499496,70.892996,44,0.0044,unvalidated_radar_change,no
+jatoi,194,29.499279,70.889429,34,0.0034,unvalidated_radar_change,no
+jatoi,195,29.500023,70.813376,21,0.0021,unvalidated_radar_change,no
+jatoi,196,29.500253,70.790278,31,0.0031,unvalidated_radar_change,no
+jatoi,197,29.498999,70.887861,12,0.0012,unvalidated_radar_change,no
+jatoi,198,29.499498,70.819322,35,0.0035,unvalidated_radar_change,no
+jatoi,199,29.49972,70.818125,9,0.0009,unvalidated_radar_change,no
+jatoi,200,29.499159,70.818076,19,0.0019,unvalidated_radar_change,no
+jatoi,201,29.498998,70.829871,9,0.0009,unvalidated_radar_change,no
+jatoi,202,29.499587,70.775968,16,0.0016,unvalidated_radar_change,no
+jatoi,203,29.499118,70.80789,15,0.0015,unvalidated_radar_change,no
+jatoi,204,29.497979,70.895798,21,0.0021,unvalidated_radar_change,no
+jatoi,205,29.499102,70.795069,10,0.001,unvalidated_radar_change,no
+jatoi,206,29.498911,70.806196,11,0.0011,unvalidated_radar_change,no
+jatoi,207,29.498372,70.806326,12,0.0012,unvalidated_radar_change,no
+jatoi,208,29.497841,70.836339,12,0.0012,unvalidated_radar_change,no
+jatoi,209,29.497096,70.887929,12,0.0012,unvalidated_radar_change,no
+jatoi,210,29.498177,70.786455,11,0.0011,unvalidated_radar_change,no
+jatoi,211,29.496794,70.893144,15,0.0015,unvalidated_radar_change,no
+jatoi,212,29.497267,70.839572,10,0.001,unvalidated_radar_change,no
+jatoi,213,29.497278,70.815274,18,0.0018,unvalidated_radar_change,no
+jatoi,214,29.496229,70.880221,10,0.001,unvalidated_radar_change,no
+jatoi,215,29.496522,70.840183,36,0.0036,unvalidated_radar_change,no
+jatoi,216,29.49695,70.80359,9,0.0009,unvalidated_radar_change,no
+jatoi,217,29.496786,70.772504,33,0.0033,unvalidated_radar_change,no
+jatoi,218,29.496496,70.810551,20,0.002,unvalidated_radar_change,no
+jatoi,219,29.49634,70.811545,17,0.0017,unvalidated_radar_change,no
+jatoi,220,29.496057,70.839602,10,0.001,unvalidated_radar_change,no
+jatoi,221,29.495945,70.806428,21,0.0021,unvalidated_radar_change,no
+jatoi,222,29.496071,70.77242,17,0.0017,unvalidated_radar_change,no
+jatoi,223,29.494355,70.883916,12,0.0012,unvalidated_radar_change,no
+jatoi,224,29.49411,70.884438,11,0.0011,unvalidated_radar_change,no
+jatoi,225,29.494291,70.870117,21,0.0021,unvalidated_radar_change,no
+jatoi,226,29.493991,70.885889,11,0.0011,unvalidated_radar_change,no
+jatoi,227,29.493826,70.889252,9,0.0009,unvalidated_radar_change,no
+jatoi,228,29.493912,70.86614,9,0.0009,unvalidated_radar_change,no
+jatoi,229,29.493758,70.847711,9,0.0009,unvalidated_radar_change,no
+jatoi,230,29.494221,70.78056,17,0.0017,unvalidated_radar_change,no
+jatoi,231,29.492254,70.890746,159,0.0159,unvalidated_radar_change,no
+jatoi,232,29.492612,70.885228,10,0.001,unvalidated_radar_change,no
+jatoi,233,29.493984,70.782727,9,0.0009,unvalidated_radar_change,no
+jatoi,234,29.492845,70.780683,88,0.0088,unvalidated_radar_change,no
+jatoi,235,29.492604,70.812455,12,0.0012,unvalidated_radar_change,no
+jatoi,236,29.492307,70.777675,12,0.0012,unvalidated_radar_change,no
+jatoi,237,29.491771,70.778276,27,0.0027,unvalidated_radar_change,no
+jatoi,238,29.491813,70.779806,13,0.0013,unvalidated_radar_change,no
+jatoi,239,29.489692,70.894578,92,0.0092,unvalidated_radar_change,no
+jatoi,240,29.489805,70.890983,10,0.001,unvalidated_radar_change,no
+jatoi,241,29.490554,70.810127,19,0.0019,unvalidated_radar_change,no
+jatoi,242,29.490169,70.821372,15,0.0015,unvalidated_radar_change,no
+jatoi,243,29.48917,70.892044,11,0.0011,unvalidated_radar_change,no
+jatoi,244,29.490276,70.780227,16,0.0016,unvalidated_radar_change,no
+jatoi,245,29.489864,70.776056,16,0.0016,unvalidated_radar_change,no
+jatoi,246,29.48894,70.821577,15,0.0015,unvalidated_radar_change,no
+jatoi,247,29.487415,70.896243,16,0.0016,unvalidated_radar_change,no
+jatoi,248,29.48634,70.827374,9,0.0009,unvalidated_radar_change,no
+jatoi,249,29.48504,70.894287,10,0.001,unvalidated_radar_change,no
+jatoi,250,29.484883,70.877662,23,0.0023,unvalidated_radar_change,no
+jatoi,251,29.484752,70.869995,10,0.001,unvalidated_radar_change,no
+jatoi,252,29.483857,70.887263,12,0.0012,unvalidated_radar_change,no
+jatoi,253,29.483552,70.894991,14,0.0014,unvalidated_radar_change,no
+jatoi,254,29.484355,70.779556,13,0.0013,unvalidated_radar_change,no
+jatoi,255,29.483629,70.784369,39,0.0039,unvalidated_radar_change,no
+jatoi,256,29.482687,70.875195,13,0.0013,unvalidated_radar_change,no
+jatoi,257,29.482213,70.891068,39,0.0039,unvalidated_radar_change,no
+jatoi,258,29.483336,70.785444,15,0.0015,unvalidated_radar_change,no
+jatoi,259,29.481246,70.890129,43,0.0043,unvalidated_radar_change,no
+jatoi,260,29.481677,70.879732,23,0.0023,unvalidated_radar_change,no
+jatoi,261,29.481336,70.874152,11,0.0011,unvalidated_radar_change,no
+jatoi,262,29.482349,70.783168,11,0.0011,unvalidated_radar_change,no
+jatoi,263,29.480573,70.889426,28,0.0028,unvalidated_radar_change,no
+jatoi,264,29.480964,70.834794,9,0.0009,unvalidated_radar_change,no
+jatoi,265,29.479799,70.881121,21,0.0021,unvalidated_radar_change,no
+jatoi,266,29.479987,70.790539,21,0.0021,unvalidated_radar_change,no
+jatoi,267,29.480042,70.780913,9,0.0009,unvalidated_radar_change,no
+jatoi,268,29.47857,70.873708,11,0.0011,unvalidated_radar_change,no
+jatoi,269,29.478354,70.884067,10,0.001,unvalidated_radar_change,no
+jatoi,270,29.479659,70.777761,13,0.0013,unvalidated_radar_change,no
+jatoi,271,29.477869,70.890027,13,0.0013,unvalidated_radar_change,no
+jatoi,272,29.477729,70.883015,22,0.0022,unvalidated_radar_change,no
+jatoi,273,29.477481,70.881923,50,0.005,unvalidated_radar_change,no
+jatoi,274,29.478087,70.831065,16,0.0016,unvalidated_radar_change,no
+jatoi,275,29.47701,70.889333,36,0.0036,unvalidated_radar_change,no
+jatoi,276,29.476809,70.882475,9,0.0009,unvalidated_radar_change,no
+jatoi,277,29.477789,70.775512,19,0.0019,unvalidated_radar_change,no
+jatoi,278,29.476354,70.862599,12,0.0012,unvalidated_radar_change,no
+jatoi,279,29.476383,70.863902,10,0.001,unvalidated_radar_change,no
+jatoi,280,29.475709,70.885896,14,0.0014,unvalidated_radar_change,no
+jatoi,281,29.475056,70.893984,15,0.0015,unvalidated_radar_change,no
+jatoi,282,29.47539,70.843138,18,0.0018,unvalidated_radar_change,no
+jatoi,283,29.474473,70.816865,27,0.0027,unvalidated_radar_change,no
+jatoi,284,29.473653,70.885888,9,0.0009,unvalidated_radar_change,no
+jatoi,285,29.473999,70.821589,16,0.0016,unvalidated_radar_change,no
+jatoi,286,29.473749,70.820946,11,0.0011,unvalidated_radar_change,no
+jatoi,287,29.472787,70.820216,22,0.0022,unvalidated_radar_change,no
+jatoi,288,29.472831,70.819673,11,0.0011,unvalidated_radar_change,no
+jatoi,289,29.473066,70.778075,11,0.0011,unvalidated_radar_change,no
+jatoi,290,29.472492,70.777885,30,0.003,unvalidated_radar_change,no
+muzaffargarh,1,30.11995,71.190914,,,MNDWI decrease,no
+muzaffargarh,2,30.119896,71.1922,,,MNDWI decrease,no
+muzaffargarh,3,30.119907,71.189979,,,MNDWI decrease,no
+muzaffargarh,4,30.119932,71.195892,,,MNDWI decrease,no
+muzaffargarh,5,30.119834,71.191749,,,MNDWI decrease,no
+muzaffargarh,6,30.119756,71.192789,,,MNDWI increase,no
+muzaffargarh,7,30.119751,71.191152,,,MNDWI decrease,no
+muzaffargarh,8,30.11966,71.191963,,,MNDWI decrease,no
+muzaffargarh,9,30.114619,71.184967,,,MNDWI increase,no
+muzaffargarh,10,30.11403,71.183096,,,MNDWI decrease,no
+muzaffargarh,11,30.112788,71.167715,,,MNDWI decrease,no
+muzaffargarh,12,30.112735,71.178381,,,MNDWI decrease,no
+muzaffargarh,13,30.112233,71.178354,,,MNDWI decrease,no
+muzaffargarh,14,30.112218,71.177836,,,MNDWI decrease,no
+muzaffargarh,15,30.111955,71.187385,,,MNDWI increase,no
+muzaffargarh,16,30.111982,71.188318,,,Insufficient paired pixels,no
+muzaffargarh,17,30.111763,71.186978,,,MNDWI decrease,no
+muzaffargarh,18,30.11179,71.18791,,,MNDWI decrease,no
+muzaffargarh,19,30.111835,71.189464,,,MNDWI decrease,no
+muzaffargarh,20,30.11155,71.188956,,,MNDWI decrease,no
+muzaffargarh,21,30.111286,71.189174,,,MNDWI decrease,no
+muzaffargarh,22,30.1111,71.188974,,,MNDWI decrease,no
+muzaffargarh,23,30.110721,71.182145,,,Insufficient paired pixels,no
+muzaffargarh,24,30.110959,71.190327,,,MNDWI decrease,no
+muzaffargarh,25,30.110794,71.190852,,,MNDWI decrease,no
+muzaffargarh,26,30.111022,71.204944,,,MNDWI decrease,no
+muzaffargarh,27,30.11053,71.181772,,,MNDWI decrease,no
+muzaffargarh,28,30.110662,71.198737,,,MNDWI increase,no
+muzaffargarh,29,30.110756,71.203554,,,MNDWI increase,no
+muzaffargarh,30,30.11047,71.198329,,,MNDWI increase,no
+muzaffargarh,31,30.110488,71.198951,,,MNDWI increase,no
+muzaffargarh,32,30.110452,71.203929,,,MNDWI increase,no
+muzaffargarh,33,30.110625,71.204717,,,MNDWI increase,no
+muzaffargarh,34,30.109867,71.196175,,,MNDWI increase,no
+muzaffargarh,35,30.109564,71.198174,,,MNDWI increase,no
+muzaffargarh,36,30.107386,71.179059,,,MNDWI increase,no
+muzaffargarh,37,30.107157,71.179448,,,MNDWI increase,no
+muzaffargarh,38,30.105677,71.17981,,,MNDWI increase,no
+muzaffargarh,39,30.105462,71.181103,,,MNDWI increase,no
+muzaffargarh,40,30.105288,71.181317,,,MNDWI increase,no
+muzaffargarh,41,30.105034,71.18188,,,MNDWI increase,no
+muzaffargarh,42,30.105536,71.213725,,,MNDWI decrease,no
+muzaffargarh,43,30.103214,71.150802,,,MNDWI decrease,no
+muzaffargarh,44,30.102801,71.178441,,,MNDWI increase,no
+muzaffargarh,45,30.102671,71.178101,,,MNDWI increase,no
+muzaffargarh,46,30.102484,71.177901,,,MNDWI increase,no
+muzaffargarh,47,30.102496,71.178315,,,MNDWI increase,no
+muzaffargarh,48,30.10195,71.178128,,,MNDWI increase,no
+muzaffargarh,49,30.101779,71.178446,,,MNDWI increase,no
+muzaffargarh,50,30.1015,71.178146,,,MNDWI increase,no
+muzaffargarh,51,30.101144,71.169036,,,MNDWI increase,no
+muzaffargarh,52,30.102954,71.237808,,,MNDWI decrease,no
+muzaffargarh,53,30.100955,71.168733,,,MNDWI decrease,no
+muzaffargarh,54,30.100912,71.169322,,,MNDWI increase,no
+muzaffargarh,55,30.102678,71.237611,,,MNDWI decrease,no
+muzaffargarh,56,30.102312,71.237417,,,MNDWI increase,no
+muzaffargarh,57,30.099909,71.176134,,,MNDWI increase,no
+muzaffargarh,58,30.099121,71.151249,,,MNDWI decrease,no
+muzaffargarh,59,30.099723,71.175933,,,MNDWI increase,no
+muzaffargarh,60,30.099512,71.174905,,,MNDWI increase,no
+muzaffargarh,61,30.099613,71.176283,,,MNDWI increase,no
+muzaffargarh,62,30.099248,71.175122,,,MNDWI increase,no
+muzaffargarh,63,30.097855,71.173725,,,MNDWI increase,no
+muzaffargarh,64,30.097669,71.173525,,,MNDWI increase,no
+muzaffargarh,65,30.098479,71.202646,,,MNDWI decrease,no
+muzaffargarh,66,30.097495,71.173739,,,MNDWI decrease,no
+muzaffargarh,67,30.097231,71.173956,,,MNDWI increase,no
+muzaffargarh,68,30.094821,71.174775,,,MNDWI increase,no
+muzaffargarh,69,30.09465,71.175092,,,MNDWI increase,no
+muzaffargarh,70,30.094464,71.174892,,,MNDWI decrease,no
+muzaffargarh,71,30.094278,71.174692,,,MNDWI decrease,no
+muzaffargarh,72,30.094058,71.16252,,,MNDWI decrease,no
+muzaffargarh,73,30.093618,71.176791,,,MNDWI decrease,no
+muzaffargarh,74,30.093353,71.176345,,,MNDWI increase,no
+muzaffargarh,75,30.093448,71.17507,,,MNDWI decrease,no
+muzaffargarh,76,30.093054,71.175983,,,MNDWI increase,no
+muzaffargarh,77,30.092112,71.180788,,,MNDWI decrease,no
+muzaffargarh,78,30.091744,71.180553,,,MNDWI decrease,no
+muzaffargarh,79,30.091385,71.180609,,,MNDWI decrease,no
+muzaffargarh,80,30.091109,71.180412,,,MNDWI decrease,no
+muzaffargarh,81,30.08995,71.174652,,,MNDWI increase,no
+muzaffargarh,82,30.088869,71.150063,,,Insufficient paired pixels,no
+muzaffargarh,83,30.089692,71.175076,,,MNDWI increase,no
+muzaffargarh,84,30.087798,71.16271,,,MNDWI increase,no
+muzaffargarh,85,30.087633,71.163235,,,MNDWI increase,no
+muzaffargarh,86,30.087559,71.166866,,,MNDWI increase,no
+muzaffargarh,87,30.087571,71.16728,,,MNDWI increase,no
+muzaffargarh,88,30.08725,71.167085,,,MNDWI decrease,no
+muzaffargarh,89,30.086781,71.183481,,,MNDWI increase,no
+muzaffargarh,90,30.086309,71.169333,,,MNDWI decrease,no
+muzaffargarh,91,30.086179,71.168992,,,MNDWI decrease,no
+muzaffargarh,92,30.085993,71.168792,,,MNDWI decrease,no
+muzaffargarh,93,30.086517,71.183698,,,MNDWI increase,no
+muzaffargarh,94,30.085819,71.169006,,,MNDWI decrease,no
+muzaffargarh,95,30.086166,71.184023,,,MNDWI decrease,no
+muzaffargarh,96,30.08492,71.162925,,,MNDWI decrease,no
+muzaffargarh,97,30.084551,71.162628,,,MNDWI decrease,no
+muzaffargarh,98,30.080769,71.162775,,,MNDWI decrease,no
+muzaffargarh,99,30.080595,71.162989,,,MNDWI decrease,no
+muzaffargarh,100,30.080533,71.162421,,,MNDWI decrease,no
+muzaffargarh,101,30.078249,71.169091,,,MNDWI decrease,no
+muzaffargarh,102,30.077852,71.169365,,,MNDWI decrease,no
+muzaffargarh,103,30.076525,71.155766,,,MNDWI increase,no
+muzaffargarh,104,30.075453,71.17832,,,MNDWI decrease,no
+muzaffargarh,105,30.075465,71.178734,,,MNDWI increase,no
+muzaffargarh,106,30.075098,71.178489,,,MNDWI decrease,no
+muzaffargarh,107,30.073726,71.183402,,,MNDWI decrease,no
+muzaffargarh,108,30.073605,71.182951,,,MNDWI decrease,no
+muzaffargarh,109,30.073635,71.183986,,,MNDWI decrease,no
+muzaffargarh,110,30.073431,71.183165,,,MNDWI decrease,no
+muzaffargarh,111,30.073449,71.183786,,,MNDWI decrease,no
+muzaffargarh,112,30.073263,71.183586,,,MNDWI decrease,no
+muzaffargarh,113,30.075074,71.243881,,,MNDWI decrease,no
+muzaffargarh,114,30.074997,71.245294,,,MNDWI increase,no
+muzaffargarh,115,30.074647,71.244063,,,MNDWI decrease,no
+muzaffargarh,116,30.074688,71.245513,,,MNDWI increase,no
+muzaffargarh,117,30.072506,71.176153,,,MNDWI decrease,no
+muzaffargarh,118,30.072247,71.176577,,,MNDWI increase,no
+muzaffargarh,119,30.074049,71.246297,,,MNDWI increase,no
+muzaffargarh,120,30.071881,71.176384,,,MNDWI increase,no
+muzaffargarh,121,30.073709,71.245964,,,MNDWI increase,no
+muzaffargarh,122,30.070319,71.16919,,,MNDWI increase,no
+muzaffargarh,123,30.070145,71.169404,,,MNDWI increase,no
+muzaffargarh,124,30.069959,71.169203,,,MNDWI decrease,no
+muzaffargarh,125,30.069785,71.169417,,,MNDWI decrease,no
+muzaffargarh,126,30.069196,71.169529,,,MNDWI decrease,no
+muzaffargarh,127,30.068741,71.205904,,,MNDWI decrease,no
+muzaffargarh,128,30.068059,71.205592,,,MNDWI decrease,no
+muzaffargarh,129,30.065663,71.162861,,,MNDWI decrease,no
+muzaffargarh,130,30.065264,71.162752,,,Insufficient paired pixels,no
+muzaffargarh,131,30.062831,71.151516,,,MNDWI increase,no
+muzaffargarh,132,30.062604,71.151973,,,MNDWI increase,no
+muzaffargarh,133,30.061229,71.160421,,,MNDWI decrease,no
+muzaffargarh,134,30.061043,71.160221,,,MNDWI increase,no
+muzaffargarh,135,30.060914,71.154267,,,MNDWI decrease,no
+muzaffargarh,136,30.060869,71.160435,,,MNDWI decrease,no
+muzaffargarh,137,30.060513,71.154438,,,MNDWI decrease,no
+muzaffargarh,138,30.060695,71.160649,,,MNDWI decrease,no
+muzaffargarh,139,30.060509,71.160448,,,MNDWI increase,no
+muzaffargarh,140,30.060191,71.15369,,,MNDWI decrease,no
+muzaffargarh,141,30.06079,71.164686,,,MNDWI decrease,no
+muzaffargarh,142,30.060147,71.154245,,,MNDWI decrease,no
+muzaffargarh,143,30.059961,71.154045,,,MNDWI increase,no
+muzaffargarh,144,30.059043,71.156567,,,MNDWI decrease,no
+muzaffargarh,145,30.058941,71.156157,,,MNDWI decrease,no
+muzaffargarh,146,30.058588,71.156429,,,MNDWI decrease,no
+muzaffargarh,147,30.059543,71.196632,,,MNDWI increase,no
+muzaffargarh,148,30.059228,71.196975,,,MNDWI decrease,no
+muzaffargarh,149,30.057043,71.154158,,,MNDWI increase,no
+muzaffargarh,150,30.056646,71.151686,,,MNDWI decrease,no
+muzaffargarh,151,30.056665,71.152307,,,MNDWI decrease,no
+muzaffargarh,152,30.056457,71.151382,,,MNDWI increase,no
+muzaffargarh,153,30.056388,71.15211,,,MNDWI decrease,no
+muzaffargarh,154,30.05613,71.152535,,,MNDWI increase,no
+muzaffargarh,155,30.055182,71.150914,,,MNDWI decrease,no
+muzaffargarh,156,30.054877,71.150787,,,MNDWI decrease,no
+muzaffargarh,157,30.054629,71.150521,,,MNDWI decrease,no
+muzaffargarh,158,30.056064,71.249922,,,Insufficient paired pixels,no
+muzaffargarh,159,30.055875,71.249643,,,Insufficient paired pixels,no
+muzaffargarh,160,30.050193,71.177633,,,MNDWI increase,no
+muzaffargarh,161,30.052025,71.247405,,,Insufficient paired pixels,no
+muzaffargarh,162,30.050203,71.178009,,,MNDWI increase,no
+muzaffargarh,163,30.051862,71.248033,,,MNDWI increase,no
+muzaffargarh,164,30.051669,71.239999,,,MNDWI increase,no
+muzaffargarh,165,30.051202,71.231271,,,MNDWI decrease,no
+muzaffargarh,166,30.050954,71.231004,,,MNDWI increase,no
+muzaffargarh,167,30.050824,71.230664,,,MNDWI increase,no
+muzaffargarh,168,30.051167,71.247686,,,Insufficient paired pixels,no
+muzaffargarh,169,30.051022,71.247029,,,Insufficient paired pixels,no
+muzaffargarh,170,30.050802,71.246691,,,Insufficient paired pixels,no
+muzaffargarh,171,30.050572,71.247046,,,Insufficient paired pixels,no
+muzaffargarh,172,30.05036,71.245631,,,Insufficient paired pixels,no

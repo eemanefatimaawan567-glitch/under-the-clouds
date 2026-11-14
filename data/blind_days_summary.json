@@ -1,0 +1,18 @@
+{
+  "start_date": "2026-06-17",
+  "end_date": "2026-11-13",
+  "total_calendar_days": 150,
+  "sentinel2_observation_dates": 68,
+  "optical_usable_dates": 56,
+  "optical_obstructed_dates": 12,
+  "no_observation_dates": 82,
+  "insufficient_coverage_dates": 0,
+  "clear_threshold": 0.8,
+  "minimum_observed_fraction": 0.8,
+  "known_nisar_pass_dates": [
+    "2026-08-12",
+    "2026-09-05"
+  ],
+  "nisar_inventory_complete": false,
+  "method_note": "Preliminary Sentinel-2 SCL-based AOI optical availability screening. Missing observations are not cloud-obstructed days. Full 150-day dated calendar in data/calendar.json. Known NISAR pass dates are not a complete NISAR inventory."
+}

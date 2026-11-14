@@ -1,0 +1,16 @@
+{
+  "project": "Under the Clouds",
+  "study_area": "Jatoi, Pakistan",
+  "reference": "Copernicus GFM",
+  "reference_date": "2026-08-27",
+  "historical_water_dataset": "JRC Global Surface Water v1.4",
+  "historical_period": "1984-2021",
+  "gfm_reference_pixels": 342,
+  "valid_occurrence_pixels": 0,
+  "missing_occurrence_pixels": 342,
+  "historically_mapped_water_pixels": 54,
+  "not_mapped_as_historical_water_pixels": 288,
+  "historical_extent_unknown_pixels": 0,
+  "occurrence_median_percent": null,
+  "note": "Historical surface-water classification covers 1984-2021, not 2026. Historical darkness is not proof of water. GFM is a satellite-derived reference, not independently verified ground truth."
+}

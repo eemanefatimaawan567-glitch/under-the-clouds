@@ -1,0 +1,21 @@
+{
+  "2026-08-27": {
+    "covered_candidate_pixels": 5679,
+    "uncovered_candidate_pixels": 0,
+    "flood_pixels_in_eligible_area": 310,
+    "overlap_pixels": 0
+  },
+  "2026-09-04": {
+    "covered_candidate_pixels": 87,
+    "uncovered_candidate_pixels": 5592,
+    "flood_pixels_in_eligible_area": 0,
+    "overlap_pixels": 0
+  },
+  "aug27_distance": {
+    "nearest_candidate_m": 40.0,
+    "median_candidate_distance_m": 4432.3,
+    "candidates_within_100m": 17,
+    "candidates_within_500m": 137
+  },
+  "interpretation": "Cross-date agreement and coverage audit only. Not validated NISAR flood accuracy. Distance is measured to mapped GFM flood pixels."
+}

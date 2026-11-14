@@ -1,0 +1,41 @@
+{
+  "project": "Under the Clouds",
+  "case_study": "Jatoi, Pakistan",
+  "radar_sensor": "NISAR L2 GCOV Provisional V1",
+  "radar_before": "2026-08-12",
+  "radar_after": "2026-09-05",
+  "optical_sensor": "Sentinel-2 L2A",
+  "optical_date": "2026-09-04",
+  "radar": {
+    "candidate_clusters": 290,
+    "candidate_pixels": 5679,
+    "candidate_area_km2": 0.5679,
+    "status": "exploratory_radar_change"
+  },
+  "optical_screening": {
+    "observed_radar_pixels": 4759,
+    "missing_radar_pixels": 920,
+    "coverage_percent": 83.8,
+    "scl_vegetation_pixels": 513,
+    "scl_non_vegetated_pixels": 4246,
+    "scl_water_pixels": 0,
+    "mndwi_above_0_2_pixels": 0
+  },
+  "scientific_conclusion": "No optical open-water signal was detected among the observed exploratory radar candidate pixels in the September 4 image.",
+  "independent_flood_ground_truth": false,
+  "confirmed_flood_area_km2": null,
+  "precision": null,
+  "recall": null,
+  "f1_score": null,
+  "limitations": [
+    "Radar darkening does not uniquely indicate flooding.",
+    "The optical image is one day before the post-event radar image.",
+    "920 candidate pixels lack usable optical coverage.",
+    "Optical and radar pixels have different native resolutions.",
+    "Vegetation-covered or shallow flooding may be missed.",
+    "No independently verified flood reference labels are available.",
+    "Radar product is provisional."
+  ],
+  "website_recommended_label": "Exploratory Radar-Change Candidates",
+  "website_warning": "Not independently validated as flood extent."
+}

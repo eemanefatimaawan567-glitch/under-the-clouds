@@ -1,0 +1,1202 @@
+[
+  {
+    "date": "2026-06-17",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-18",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-19",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-20",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.986920478165607,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-21",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-22",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-23",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-24",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-25",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-26",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999979307019344,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-27",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-28",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-29",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-06-30",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-01",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999151587793099,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-02",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-03",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.8372258168905083,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-04",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-05",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-06",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9705144257949836,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-07",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-08",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-09",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-10",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.7746751074227405,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-11",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9563956375528845,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-12",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-13",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.4822958444932411,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-14",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-15",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-16",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-17",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-18",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9844112960206108,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-19",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-20",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-21",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-22",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-23",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.1635089624504608,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-24",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-25",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-26",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.23101128308709235,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-27",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-28",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-29",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-30",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-07-31",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.11816254316829654,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-01",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-02",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.3517388307587903,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-03",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-04",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-05",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-06",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-07",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.4644274313519901,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-08",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-09",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.3940029778254105,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-10",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-11",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-12",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9997268526553391,
+    "observed_fraction": 1,
+    "nisar_pass": true
+  },
+  {
+    "date": "2026-08-13",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-14",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-15",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-16",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-17",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.6916112027837212,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-18",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-19",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-20",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-21",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-22",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-23",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-24",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-25",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-26",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-27",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-28",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-29",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-30",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9993274781286758,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-08-31",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-01",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9988746670225536,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-02",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-03",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-04",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-05",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": true
+  },
+  {
+    "date": "2026-09-06",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.5256228723101983,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-07",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-08",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-09",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999917228077375,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-10",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-11",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999814980408251,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-12",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-13",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-14",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9998654956257351,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-15",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-16",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-17",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-18",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9964139064522929,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-19",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999606833367534,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-20",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-21",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-22",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-23",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-24",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.999925505269638,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-25",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-26",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-27",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-28",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-29",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-09-30",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-01",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-02",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-03",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-04",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999234359715723,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-05",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-06",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-07",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-08",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-09",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999937921058032,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-10",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-11",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-12",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-13",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-14",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 0.11223273017189903,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-15",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-16",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999348211683804,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-17",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-18",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-19",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999875842116063,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-20",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-21",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-22",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-23",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-24",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.999908950885113,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-25",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-26",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 0.9999937921058032,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-27",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-28",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-29",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-30",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-10-31",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-01",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-02",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-03",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-04",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-05",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-06",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-07",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-08",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-09",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-10",
+    "optical_status": "optical_usable",
+    "optical_clear": true,
+    "clear_fraction": 1,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-11",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-12",
+    "optical_status": "no_observation",
+    "optical_clear": false,
+    "clear_fraction": null,
+    "observed_fraction": null,
+    "nisar_pass": false
+  },
+  {
+    "date": "2026-11-13",
+    "optical_status": "optical_obstructed",
+    "optical_clear": false,
+    "clear_fraction": 4.138596131225734e-06,
+    "observed_fraction": 1,
+    "nisar_pass": false
+  }
+]
