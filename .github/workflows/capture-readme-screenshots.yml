@@ -1,0 +1,46 @@
+name: Capture clear README screenshots
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/capture-readme-screenshots.yml"
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start static website
+        run: |
+          python3 -m http.server 8765 > /tmp/underclouds-server.log 2>&1 &
+          sleep 3
+      - name: Capture full-resolution browser screenshots
+        shell: bash
+        run: |
+          set -e
+          mkdir -p screenshots
+          BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)
+          if [ -z "$BROWSER" ]; then
+            sudo apt-get update -qq
+            sudo apt-get install -y chromium-browser
+            BROWSER=$(command -v chromium-browser)
+          fi
+          declare -A pages=(
+            [homepage]="#home"
+            [explorer]="#explorer"
+            [blind-days]="#blind-days"
+            [validation-overview]="#validation"
+          )
+          for section in homepage explorer blind-days validation-overview; do
+            "$BROWSER" --headless --no-sandbox --disable-dev-shm-usage --hide-scrollbars --window-size=1600,1050 --force-device-scale-factor=1 --virtual-time-budget=7000 --screenshot="$PWD/screenshots/${section}.png" "http://127.0.0.1:8765/${pages[$section]}"
+          done
+          ls -lh screenshots/*.png
+      - name: Commit full-resolution images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add screenshots/*.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Capture clear 1600px browser screenshots for README"
+          git push
