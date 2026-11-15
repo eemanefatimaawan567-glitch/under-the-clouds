@@ -19,6 +19,13 @@
 
 [**Interactive dashboard**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) · [**Visual Earth-observation story**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/story.html) · [**Focused Jatoi evidence**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi) · [Methodology](METHOD.md) · [30-second demo script](DEMO_SCRIPT_30_SECONDS.md)
 
+
+### Flood-validation evidence audit — updated 15 November 2026
+
+We have published a [reproducible optical and second-event evidence audit](research/FLOOD_VALIDATION_EVIDENCE_AUDIT.md) and [standard-library verification script](research/recheck_jatoi_optical_evidence.py). In the team's ten GPS optical samples, **7 MNDWI values increased, 3 decreased; only 1 later scene showed Sentinel-2 SCL water**, while **0/10 new-flood confirmations were established**. Those ten targeted samples are **not** a random sample of the older 290-cluster layer.
+
+A compatible **Dera Ghazi Khan 25 June → 19 July NISAR** catalogue pair (same track 164, frame 73, mode) has been discovered and the user-run polygon-footprint test reported **100% intersection with the tested AOI**. **Actual valid radar-pixel overlap, a dated independent flood reference, and unchanged-model evaluation remain pending.** This is second-event *readiness*, **not second-event validation**.
+
 ## Project overview
 
 Monsoon clouds can limit optical Earth observation. **Under the Clouds** combines NASA–ISRO **NISAR L-band SAR observations** with optical and independent flood-reference checks to help people explore where the surface changed, whether optical imagery was available, and what the evidence does—and does not—support. The bilingual (English/Urdu) site shows exploratory candidates in **Jatoi** and a separate **Muzaffargarh** study, with transparent validation and an exportable field-verification list.
