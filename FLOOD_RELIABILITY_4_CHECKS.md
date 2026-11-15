@@ -1,6 +1,6 @@
 # Terrapulse: four flood-reliability checks (experimental)
 
-**Notebook:** `Terrapulse_Flood_Reliability_4_Checks.ipynb` is supplied as a **downloadable attachment in the project conversation**, not yet committed to this repository. Open that file in Google Colab and **Run all**. This copies and extends the previous audited Jatoi notebook; it does not overwrite the original investigation. All tests operate on **existing original_subset GeoTIFFs**, not a new 14 GB NISAR download.
+**Notebook availability:** The original historical `Terrapulse_Flood_Reliability_4_Checks.ipynb` is **not included in this repository**. For an actually committed, reproducible corrected-scale 20 m HH-change / radar-quality and GFM QA workflow, see [Jatoi_Change_Validation_Colab.ipynb](research/Jatoi_Change_Validation_Colab.ipynb). **It is a different workflow** and does not reproduce the four checks below. The four-check descriptions on this page are preserved as an earlier experimental protocol, not an executed or reproducible repository result. This copies and extends the previous audited Jatoi notebook; it does not overwrite the original investigation. All tests operate on **existing original_subset GeoTIFFs**, not a new 14 GB NISAR download.
 
 1. **Simple HH baselines:** fixed post-acquisition HH ≤ −18 dB and a training-only Otsu HH cutoff vs the original candidate clusters and radar-only logistic model, on exactly the same original held-out cells.
 2. **Permanent water:** optional JRC Global Surface Water occurrence 0–100 raster, filename `jrc_occurrence_on_nisar_grid.tif`, in `/content/drive/MyDrive/UnderTheClouds/jatoi/original_subset/`. **Must have exact same CRS, shape and affine transform** as NISAR pair. At preset occurrence ≥90%, reference cells are excluded from *evaluation* and (in the 2 km experiment) from **both training and testing**. If absent, the notebook explicitly **skips** these experiments; it never fabricates an empty permanent-water mask. Historical occurrence is not contemporaneous flood ground truth.
@@ -16,3 +16,6 @@
 
 ### Scientific interpretation
 Any measured metrics are GFM-reference agreements on one manually chosen Jatoi footprint and one NISAR acquisition pair. GFM labels supervise the model; therefore this is **not independent ground-confirmed flood detection**. The notebook is delivered **unexecuted on the user's private satellite files**: no updated score exists until run in the user's Colab environment. Do not use these outputs for emergency response or relabel the older 290-cluster interactive map.
+
+
+**Status clarification (15 Nov 2026):** The earlier protocol described unverified experimental processing and did not by itself establish that any existing Case 2 metrics used dB-converted radar input. The newer 25% JRC occurrence experiment is not a permanent-water (90%) control and the two cannot be treated as interchangeable. See [corrected-scale audit](research/JATOI_2026_CHANGE_EVIDENCE.md).
