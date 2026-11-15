@@ -1,6 +1,6 @@
 # Flood-evidence reliability upgrade — Terrapulse
 
-**Research status:** a test protocol and runnable Colab notebook have been prepared, but **no revised accuracy/skill measurements have been obtained** from the original Drive GeoTIFFs. Do not change the website's existing validation statistics until the new analysis has run and the results have been checked.
+**Historical status of this document:** This page describes an earlier research handoff. Subsequently a **different corrected-scale August–September Jatoi experiment was executed** and its observed GFM-reference results are documented in [research/JATOI_2026_CHANGE_EVIDENCE.md](research/JATOI_2026_CHANGE_EVIDENCE.md). That does **not** establish the HH/HV unit calibration for this website's older July–August Case 2 metrics. They remain **calibration-unverified archival comparisons**. Do not interpret the new study's numbers as a replacement for the older map or holdout.
 
 ## Intended capability
 Distinguish **radar-change candidates** from **satellite-reference-supported potential flood** using radar-only features, with a third **uncertain / needs verification** state. GFM is a satellite-derived proxy, **not field ground truth**.
