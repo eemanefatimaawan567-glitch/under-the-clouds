@@ -236,3 +236,11 @@ A **separate focused Jatoi research audit** now documents corrected linear-power
 
 The rule-based experiment generated **14,034 post-HH-dark-only cells**, **2,503 HH-dark-plus-≥3dB-decrease candidate cells** and **941 JRC-occurrence-excluded cells** on its focused radar-valid grid. These are **not confirmed floods** and are not yet hosted as an exact raster overlay because the raster remains in Colab/Drive. In 2 km spatial reference checks with the 25% historical-occurrence exclusion, unrestricted logistic was **slightly** stronger than two-stage gated logistic at the 5% training-budget setting; no model has been field-validated or independently tested on a separate flood event.
 
+
+## Final verification workflow — independent optics and external-event gate
+
+**[Automatic exact-GPS Sentinel-2 audit (Colab)](research/Independent_Optical_GPS_Validation.ipynb)** · [Python code](research/independent_optical_gps_validation.py). This records local cloud QA and original scene IDs for all ten selected Jatoi research-centre coordinates without manually using the Copernicus Browser. It exports `exact_gps_optical_status.csv`, which can support an **optical water-change signal** when before and after are both usable; this is **not field-confirmed flooding**. Results have **not** been executed against the team's live Earth Engine account by the repository authoring workflow, and no scene classifications are invented.
+
+**Second-event validation status: NOT TESTED.** The project does not yet contain another independent event's calibrated NISAR before/after pair and separate reference coverage/labels. FAO's [2025 Pakistan flood assessment](https://www.fao.org/geospatial/news/news-detail/fao-releases-geospatial-flood-impact-assessment-for-pakistan--2025/) documents an alternative event, **not** successful NISAR transfer testing. Do not present the 2026 Jatoi cross-validation as an external-event test. [Detailed scientific audit](research/JATOI_2026_CHANGE_EVIDENCE.md).
+
+**GeoTIFF provenance:** The generated `TERRAPULSE_HH_CHANGE_CANDIDATES_20m.tif` remains in the team's Colab Google Drive at `UnderTheClouds/jatoi/original_subset/flood_validation_upgrade/`; it is **not yet GitHub-hosted**. Download that real GeoTIFF from Colab and upload to `assets/research/` in GitHub to publish it. Do not replace it with generated points or a fabricated raster.
