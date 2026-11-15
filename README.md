@@ -223,3 +223,16 @@ A fixed dual-polarization rule, **HH darkening ≤ −2 dB AND HV darkening ≤ 
 In a separate August exploratory experiment (NISAR 17→29 August, GFM 27 August), the HH/HV dual-darkening rule obtained TP 30, FP 6,952, FN 137, TN 192,861 (0.430% precision / 17.96% recall). Restricting GFM comparison to areas outside its exclusion mask and normal reference-water mask changed the evaluation domain to 148,026 pixels and gave TP 30, FP 5,360, FN 137, TN 142,499 (0.557% precision / 17.96% recall). This is a **different evaluation population, not a model accuracy improvement**. GFM advisory categories showed differing results, so they must not be silently discarded.
 
 These regional experiments are **not the data underlying the 172 displayed Muzaffargarh polygons**, and should not be mistaken for per-feature validation. No emergency decisions should be based on these maps.
+
+
+## NEW — Corrected-scale NISAR HH change research (15 November 2026)
+
+A **separate focused Jatoi research audit** now documents corrected linear-power-to-dB handling, a rule-based change layer, spatial checks, edge-quality concerns, and ten GPS centres for *independent* verification. **Do not combine these numbers with either of the two earlier map footprints.**
+
+- **[Interactive GPS verification map](candidate-review.html)** — 10 interior candidate *centres*, not inundation polygons.
+- **[Research results, units correction and limitations](research/JATOI_2026_CHANGE_EVIDENCE.md)** — full reference-based metrics, boundaries and unverified status.
+- **[Reproducible Colab notebook](research/Jatoi_Change_Validation_Colab.ipynb)** and [Python source](research/jatoi_change_audit.py) — regenerate rule-based 20 m raster from the team's original Drive GeoTIFFs.
+- **[GPS CSV](data/jatoi_interior_change_candidates_2026.csv)** — user-generated centroid targets.
+
+The rule-based experiment generated **14,034 post-HH-dark-only cells**, **2,503 HH-dark-plus-≥3dB-decrease candidate cells** and **941 JRC-occurrence-excluded cells** on its focused radar-valid grid. These are **not confirmed floods** and are not yet hosted as an exact raster overlay because the raster remains in Colab/Drive. In 2 km spatial reference checks with the 25% historical-occurrence exclusion, unrestricted logistic was **slightly** stronger than two-stage gated logistic at the 5% training-budget setting; no model has been field-validated or independently tested on a separate flood event.
+
