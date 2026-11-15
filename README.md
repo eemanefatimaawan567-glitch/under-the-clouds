@@ -1,10 +1,11 @@
 # Under the Clouds ☁️🛰️
 
 **Team Terrapulse · Project: Under the Clouds**
+
 **Start here**
 
 - **What it is:** An interactive NISAR radar *surface-change* research explorer with optical-observation visibility for Pakistan.
-- **What we found:** The archived Jatoi 290-cluster processing **does convert linear HH/HV power to dB** before radar change detection; [source-code audit](research/JATOI_290_CLUSTER_SCALE_PROVENANCE.md). A separate corrected-scale experiment found GFM-reference water-like signals.
+- **What we found:** **290 exploratory radar-change clusters (5,679 10 m cells; ~0.57 km²)** in Jatoi. Sentinel-2 screening detected **no open-water indication among 4,759 screened candidate cells**, and the earlier GFM comparisons showed weak or absent agreement (with date/coverage limitations). These are unconfirmed surface changes, **not a flood map**. The original 290-cluster processing was [source-code audited for correct dB conversion](research/JATOI_290_CLUSTER_SCALE_PROVENANCE.md).
 - **What we do not claim:** Ground-confirmed new flooding, damaged crops, calibrated accuracy for the older Case 2 metrics, or an externally validated flood-alert system.
 
 
