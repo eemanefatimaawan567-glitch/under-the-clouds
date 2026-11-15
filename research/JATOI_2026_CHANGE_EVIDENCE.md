@@ -9,7 +9,7 @@ This experiment is **different from** the earlier web map (**290 clusters, 5,679
 The input TIFF bands are named `HHHH_linear` and `HVHV_linear`. Their values had incorrectly been treated as decibels in initial diagnostic notebooks. For **linear power backscatter** (verify GCOV source-calibration provenance), conversion is `10 * log10(linear_power)`. The previous rule `HH <= -18 dB` evaluated on unconverted linear values was invalid; corrected HH-only screening showed much higher satellite-reference sensitivity. Older notebook sections retained for audit history are NOT corrected-scale scores.
 
 ## Radar-only candidate layer (full valid Jatoi subset)
-`TERRAPULSE_HH_CHANGE_CANDIDATES_20m.tif` was generated in the team's private Google Drive Colab environment and **is not included in GitHub**. Class definitions:
+`TERRAPULSE_HH_CHANGE_CANDIDATES_20m.tif` was generated in the team's private Google Drive Colab environment and was **subsequently uploaded to GitHub** as [the verified binary GeoTIFF](TERRAPULSE_HH_CHANGE_CANDIDATES_20m%20.tif) (uploaded filename has an extra space before `.tif`). Class definitions:
 - **0:** neither selected signal;
 - **1:** post-date HH ≤ −18 dB, without HH drop ≥3 dB;
 - **2:** post-date HH ≤ −18 dB AND post minus pre HH ≤ −3 dB — **change-supported research candidate**, not confirmed new inundation;
@@ -54,7 +54,7 @@ The ten largest **interior** (more than 500m from original radar-quality boundar
 - A demonstrably dry August baseline for the full flood event. Already-dark radar cells could represent earlier water or low-backscatter land.
 - Acquisition calibration, geolocation, speckle, native GFM resolution and 1-day GFM/NISAR date mismatch.
 - A genuinely independent **second event or geographic region** and uncertainty from independent flood-event samples.
-- Actual raster/preview or Colab output files cannot be placed in GitHub without access to the Drive binaries; no fake raster, screenshot or GeoTIFF has been committed.
+- The actual research GeoTIFF **has now been committed**; see the linked binary above. The new report [optical + second-event audit](FLOOD_VALIDATION_EVIDENCE_AUDIT.md) does not establish new-event validation.
 
 ## Reproduce
 Run the committed [Google Colab notebook](../research/Jatoi_Change_Validation_Colab.ipynb) using the original NISAR and JRC/GFM GeoTIFFs in your own Google Drive. It creates the rule-based raster and reference/edge audit. The separate advanced ML experiments were performed in an earlier team notebook; figures above are supplied as **user-run Colab results**, not re-executed on GitHub.
