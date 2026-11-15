@@ -1,0 +1,11 @@
+target_id,latitude,longitude,before_date,after_date,before_MNDWI,after_MNDWI,before_SCL_water_fraction,after_SCL_water_fraction,local_clear_before,local_clear_after,interpretation,new_inundation_confirmed
+JATOI_01,29.644212,70.759943,2026-08-05,2026-09-11,0.3873,0.679027,0,1,1,1,after_SCL_water_before_high_MNDWI_ambiguous,not_established
+JATOI_02,29.639397,70.757957,2026-08-05,2026-09-09,0.372276,0.431723,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_03,29.636319,70.757734,2026-08-05,2026-09-09,0.258993,0.398283,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_04,29.63927,70.760694,2026-08-10,2026-09-04,0.504462,0.461968,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_05,29.643077,70.764497,2026-08-10,2026-09-04,0.495246,0.018386,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_06,29.634768,70.75675,2026-08-05,2026-09-04,0.223786,0.462177,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_07,29.632396,70.756296,2026-08-05,2026-09-04,0.326669,0.457079,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_08,29.632858,70.76046,2026-08-05,2026-09-04,0.273011,0.403033,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_09,29.637303,70.759691,2026-08-05,2026-09-09,0.192358,-0.093548,0,0,1,1,no_SCL_water_MNDWI_ambiguous,not_established
+JATOI_10,29.613956,70.778905,2026-08-05,2026-09-04,-0.450501,-0.219313,0,0,1,1,no_SCL_water_signal,not_established
