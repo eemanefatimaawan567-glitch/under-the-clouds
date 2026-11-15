@@ -27,7 +27,12 @@ We have published a [reproducible optical and second-event evidence audit](resea
 A compatible **Dera Ghazi Khan 25 June → 19 July NISAR** catalogue pair (same track 164, frame 73, mode) has been discovered and the user-run polygon-footprint test reported **100% intersection with the tested AOI**. **Actual valid radar-pixel overlap, a dated independent flood reference, and unchanged-model evaluation remain pending.** This is second-event *readiness*, **not second-event validation**.
 
 
-**External-event next step:** [DG Khan pre-registered validation protocol](research/DG_KHAN_PREREGISTERED_PROTOCOL.md) locks the 25 June→19 July same-mode test, observation gates, the 20 m HH rule, and handling of the non-comparable 7 July mixed-mode scene **before any DG Khan flood-reference labels are accessed**. GFM catalogue item retrieval currently fails upstream; **no second-event results or skill scores exist**.
+**External-event next step:** [DG Khan pre-registered validation protocol](research/DG_KHAN_PREREGISTERED_PROTOCOL.md) locks the 25 June→19 July same-mode test, observation gates, the 20 m HH rule, and handling of the non-comparable 7 July mixed-mode scene **before any DG Khan flood-reference labels are accessed**. GFM catalogue item retrieval currently fails upstream; **an exploratory nine-site NISAR run has been completed but is INCONCLUSIVE; no second-event skill scores exist**.
+
+
+### DG Khan follow-up — executed, INCONCLUSIVE (15 Nov 2026)
+
+The team ran authenticated NISAR same-mode 25 June → 19 July 2026 screening at **9 pre-selected DG Khan research sites**: **36,841 common-valid 20 m cells** and **240 frozen-HH-threshold change candidates** (**0.096 km² of *radar research candidates*, not flood extent**). **JRC exclusion was not applied**, so this was a partial algorithm diagnostic, **not a complete frozen-model transfer**. An independent date-matched flood-reference mask was not obtained; flooded-settlement coordinates and 19 July water observability remain unverified. **No second-event flood accuracy, precision, recall, F1 or field confirmation is established.** [Executed research report](research/DG_KHAN_EXECUTED_INCONCLUSIVE_RESULT.md) · [Pre-registered protocol](research/DG_KHAN_PREREGISTERED_PROTOCOL.md).
 
 ## Project overview
 
