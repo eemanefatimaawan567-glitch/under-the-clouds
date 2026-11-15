@@ -33,3 +33,8 @@ Dates: 17 June–13 November 2026 inclusive (150 days). Daily records in `data/c
 ## Scientific scope
 
 Candidate locations are leads for field verification, **not** flood detections or surveyed ground truth. This research prototype is not suitable for disaster-response decisions without independent validation.
+
+
+## November 2026 corrected HH power-scale and candidate audit
+
+The experimental TIFF band descriptions `HHHH_linear` / `HVHV_linear` require conversion **if** their values are linear power backscatter: `10*log10(power)`. Early diagnostic comparisons had incorrectly labeled linear values as dB. Corrected radar-only results and all caveats are documented in [the focused change evidence audit](research/JATOI_2026_CHANGE_EVIDENCE.md). A separate [GPS review page](candidate-review.html) marks ten unverified centres only. Model GFM-reference metrics and the 2,503 class-2 change-supported candidate cells do **not** establish new inundation, agricultural damage, validated accuracy, or operational alerts. The 25% JRC historical-occurrence cutoff is exploratory, **not** a permanent-water definition. These later results do not alter earlier 125- or 290-cluster counts.

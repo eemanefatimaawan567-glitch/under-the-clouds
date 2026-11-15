@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071421">
+<meta name="description" content="Ten GPS centres of unverified Jatoi HH radar-change research candidates for independent inspection; not a flood-extent map.">
+<title>Jatoi Verification Targets | Under the Clouds</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:#071421;color:#eef7fa}
+a{color:#8bebee}header{padding:23px max(4vw,18px);border-bottom:1px solid #27485d;background:linear-gradient(135deg,#092336,#071421)}
+nav{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:15px;font-size:14px}nav a{text-decoration:none}h1{font-size:clamp(1.6rem,4vw,2.7rem);margin:0 0 9px}
+p{line-height:1.55;color:#b7cfdd;max-width:90ch}main{max-width:1450px;margin:auto;padding:22px}
+.warn{background:#172e3b;border-left:4px solid #e4ad63;border-radius:8px;padding:13px 16px;line-height:1.5;margin:10px 0 18px}
+.grid{display:grid;grid-template-columns:minmax(270px,360px) minmax(0,1fr);gap:18px}
+#map{height:65vh;min-height:470px;border-radius:14px;z-index:1;border:1px solid #416072}
+aside{background:#102638;border-radius:14px;padding:18px;border:1px solid #284558}
+aside p{font-size:13px}.items{display:grid;gap:9px;max-height:53vh;overflow:auto}
+.place{display:block;width:100%;text-align:left;background:#183548;border:1px solid #36566d;border-radius:10px;color:#eff9ff;padding:12px;cursor:pointer}
+.place:hover,.place:focus{outline:2px solid #6ddfe5}.place strong{display:block}.place small{display:block;color:#b7cdd8;margin-top:4px}
+.note{font-size:14px;border-top:1px solid #244255;margin-top:23px;padding-top:15px;color:#b8cdd8}
+@media(max-width:850px){.grid{grid-template-columns:1fr}#map{height:56vh;min-height:360px}.items{max-height:235px}}
+</style>
+</head>
+<body>
+<header>
+<nav><a href="./">← Under the Clouds</a><a href="story.html">Earth-observation story</a><a href="research/JATOI_2026_CHANGE_EVIDENCE.md">Evidence & limitations</a><a href="data/jatoi_interior_change_candidates_2026.csv" download>Download GPS CSV</a></nav>
+<h1>Jatoi · Radar-change verification targets</h1>
+<p>Ten largest interior HH change-supported clusters identified from NASA–ISRO NISAR 12 Aug → 5 Sep 2026 observations. Points show estimated connected-component <strong>centres only</strong>; they are not measured inundation boundaries.</p>
+</header>
+<main>
+<div class="warn"><b>Research candidates — not confirmed floods.</b> These points are selected from a radar change screening rule (post-date HH ≤−18 dB and HH darkening ≥3 dB), excluding JRC historical occurrence ≥25% for sensitivity analysis. JRC ≥25% is <b>not</b> a permanent-water definition. Areas are approximate 20 m-cell counts. Independent scene-level optical or field verification at these exact coordinates remains outstanding.</div>
+<div class="grid">
+<aside><h2 style="margin-top:0">Priority inspection list</h2><p>Choose a centre to inspect it on the map. Red markers are all unverified. The source raster remains in the team's Google Drive and is not represented by these pins.</p><div id="items" class="items"></div></aside>
+<div id="map" role="application" aria-label="Interactive map of ten Jatoi research candidate centre points"></div>
+</div>
+<p class="note"><strong>Why not use this as a flood alert?</strong> HH darkness can indicate water, wet soil, river sandbar dynamics, agriculture, layover or acquisition artifacts. A mapped regional flood report does not verify these specific cells. The 4 Sep Copernicus GFM reference is satellite-derived and one day before the 5 Sep NISAR post-image. Edge proximity and sampling-selection effects need further audit. <a href="research/JATOI_2026_CHANGE_EVIDENCE.md">Read complete limitations</a>.</p>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const points=[
+[128,5.12,29.644212,70.759943,540],
+[66,2.64,29.639397,70.757957,680],
+[55,2.20,29.636319,70.757734,680],
+[40,1.60,29.639270,70.760694,920],
+[32,1.28,29.643077,70.764497,780],
+[23,0.92,29.634768,70.756750,620],
+[23,0.92,29.632396,70.756296,600],
+[21,0.84,29.632858,70.760460,1000],
+[21,0.84,29.637303,70.759691,900],
+[21,0.84,29.613956,70.778905,2620]
+];
+const map=L.map('map',{scrollWheelZoom:false}).setView([29.638,70.762],13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+const bounds=[];
+const list=document.getElementById('items');
+points.forEach(([n,area,lat,lon,dist],i)=>{
+ const popup='<b>Candidate '+(i+1)+' — UNVERIFIED</b><br>'+n+' × approximately 20 m cells ('+area+' ha)<br>Min radar-quality edge distance: '+dist+' m<br>Centre: '+lat+', '+lon+'<br><a target="_blank" rel="noopener noreferrer" href="https://www.openstreetmap.org/?mlat='+lat+'&mlon='+lon+'#map=16/'+lat+'/'+lon+'">Inspect location in OSM</a>';
+ const marker=L.circleMarker([lat,lon],{radius:7,weight:2,color:'#fbf1e7',fillColor:'#eb5b64',fillOpacity:.94}).addTo(map).bindPopup(popup);
+ bounds.push([lat,lon]);
+ const button=document.createElement('button');button.className='place';button.type='button';
+ button.innerHTML='<strong>Target '+(i+1)+' · '+area+' ha</strong><small>'+lat.toFixed(6)+', '+lon.toFixed(6)+' · '+n+' cells · '+dist+' m from edge</small>';
+ button.onclick=()=>{map.setView([lat,lon],16);marker.openPopup();};list.appendChild(button);
+});
+map.fitBounds(bounds,{padding:[35,35]});
+</script>
+</body></html>

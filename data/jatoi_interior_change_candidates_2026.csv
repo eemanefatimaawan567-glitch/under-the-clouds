@@ -1,0 +1,11 @@
+rank,cells,area_hectares,latitude,longitude,min_radar_quality_edge_distance_m,interpretation
+1,128,5.12,29.644212,70.759943,540,research_candidate_not_confirmed_flood
+2,66,2.64,29.639397,70.757957,680,research_candidate_not_confirmed_flood
+3,55,2.20,29.636319,70.757734,680,research_candidate_not_confirmed_flood
+4,40,1.60,29.639270,70.760694,920,research_candidate_not_confirmed_flood
+5,32,1.28,29.643077,70.764497,780,research_candidate_not_confirmed_flood
+6,23,0.92,29.634768,70.756750,620,research_candidate_not_confirmed_flood
+7,23,0.92,29.632396,70.756296,600,research_candidate_not_confirmed_flood
+8,21,0.84,29.632858,70.760460,1000,research_candidate_not_confirmed_flood
+9,21,0.84,29.637303,70.759691,900,research_candidate_not_confirmed_flood
+10,21,0.84,29.613956,70.778905,2620,research_candidate_not_confirmed_flood
