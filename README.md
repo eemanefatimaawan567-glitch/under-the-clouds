@@ -1,9 +1,14 @@
 # Under the Clouds ☁️🛰️
 
+**Team Terrapulse · Project: Under the Clouds**
+
 **NASA Space Apps Challenge 2026 · Dancing with the SARs**  
 **An evidence-first NISAR radar-change explorer for Jatoi and Muzaffargarh, Pakistan**
 
 > **Research demonstration, not a confirmed flood map or operational flood alert.** A radar change is a candidate for investigation—not proof of flooding.
+
+> **Calibration / historical-validation notice (15 November 2026):** Some early NISAR experiments treated `HHHH_linear` / `HVHV_linear` values as dB, a unit error. The corrected power-to-dB August–September *focused* experiment is separately documented in [Jatoi corrected-scale evidence](research/JATOI_2026_CHANGE_EVIDENCE.md). **The July–August Case 2 and six-rule website metrics have not yet been traced to scale-verified source cells** and must be treated as historical, *calibration-unverified* reference comparisons—not current validated detector accuracy. GFM is a satellite-derived comparison reference, not field ground truth; the earlier and corrected regions/date pairs are not directly interchangeable.
+
 
 [**Interactive dashboard**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/) · [**Visual Earth-observation story**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/story.html) · [**Focused Jatoi evidence**](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#focused-jatoi) · [Methodology](METHOD.md) · [30-second demo script](DEMO_SCRIPT_30_SECONDS.md)
 
@@ -123,7 +128,7 @@ The Jatoi radar-change candidates were checked against Sentinel-2 optical observ
 
 For the complete six-rule table and evidence notes, open the [live Validation section](https://eemanefatimaawan567-glitch.github.io/under-the-clouds/#validation) and select **Case 2**. The source data are available in [`data/threshold_validation.json`](data/threshold_validation.json).
 
-A separate Jatoi July–August holdout test had **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
+A separate **historical, calibration-unverified** Jatoi July–August holdout report lists **60.98% recall**, **0.110% precision** and **ROC AUC ≈ 0.651** against a temporally offset GFM reference. These results do **not** justify an operational flood-detection accuracy claim.
 
 ## Earlier interactive-map study — key findings
 
@@ -239,7 +244,7 @@ The rule-based experiment generated **14,034 post-HH-dark-only cells**, **2,503 
 
 ## Final verification workflow — independent optics and external-event gate
 
-**[Automatic exact-GPS Sentinel-2 audit (Colab)](research/Independent_Optical_GPS_Validation.ipynb)** · [Python code](research/independent_optical_gps_validation.py). This records local cloud QA and original scene IDs for all ten selected Jatoi research-centre coordinates without manually using the Copernicus Browser. It exports `exact_gps_optical_status.csv`, which can support an **optical water-change signal** when before and after are both usable; this is **not field-confirmed flooding**. Results have **not** been executed against the team's live Earth Engine account by the repository authoring workflow, and no scene classifications are invented.
+**[Automatic exact-GPS Sentinel-2 audit (Colab)](research/Independent_Optical_GPS_Validation.ipynb)** · [Python code](research/independent_optical_gps_validation.py). This records local cloud QA and original scene IDs for all ten selected Jatoi research-centre coordinates without manually using the Copernicus Browser. It exports `exact_gps_optical_status.csv`, which can support an **optical water-change signal** when before and after are both usable; this is **not field-confirmed flooding**. The team subsequently ran the audit in its own Earth Engine environment; [ten centre-level optical outputs](data/jatoi_gps_sentinel2_crosscheck_2026.csv) and [interpretation](research/JATOI_EXACT_GPS_OPTICAL_FINDINGS.md) are published. No *new flood* was independently confirmed at these centres.
 
 **Second-event validation status: NOT TESTED.** The project does not yet contain another independent event's calibrated NISAR before/after pair and separate reference coverage/labels. FAO's [2025 Pakistan flood assessment](https://www.fao.org/geospatial/news/news-detail/fao-releases-geospatial-flood-impact-assessment-for-pakistan--2025/) documents an alternative event, **not** successful NISAR transfer testing. Do not present the 2026 Jatoi cross-validation as an external-event test. [Detailed scientific audit](research/JATOI_2026_CHANGE_EVIDENCE.md).
 
