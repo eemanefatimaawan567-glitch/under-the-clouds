@@ -56,3 +56,8 @@ The team ran ASF catalogue discovery and a Shapely footprint intersection check.
 The earlier focused Jatoi GFM comparison found 100 GFM matches among 1,737 reference-covered radar candidates, **5.76% overlap** versus **4.31% GFM flood prevalence** (1.34× prevalence baseline). This is weak observational enrichment, *not* statistically validated skill or field confirmation. A separate corrected-scale same-region model achieved approximately 47–48% reference precision-like values on non-independent reused regional folds, not independent event accuracy. Do **not** mix these with the original 290-cluster map or the ten GPS optical test.
 
 **Validated statement:** We performed source-level calibration checking, an auditable independent optical crosscheck on ten specific research-centre neighbourhoods, and verified geometric coverage of a potential separate NISAR event pair. **We have not validated new inundation or model transfer to a new flood event.**
+
+
+## 5. User-executed DG Khan follow-up — 15 November 2026
+
+See [the executed nine-site diagnostic and INCONCLUSIVE finding](DG_KHAN_EXECUTED_INCONCLUSIVE_RESULT.md). The team reported **36,841 common-valid 20m sample cells** and **240 HH-screen candidates** across nine fixed sites. It did **not** run JRC exclusion or obtain appropriate flood-reference labels. Earlier statements in this audit about "no model run" describe the state **before** this follow-up; they should not be treated as current. Result remains **INCONCLUSIVE**, with no validated precision/recall/F1 or independently established new inundation.
