@@ -26,6 +26,9 @@ We have published a [reproducible optical and second-event evidence audit](resea
 
 A compatible **Dera Ghazi Khan 25 June → 19 July NISAR** catalogue pair (same track 164, frame 73, mode) has been discovered and the user-run polygon-footprint test reported **100% intersection with the tested AOI**. **Actual valid radar-pixel overlap, a dated independent flood reference, and unchanged-model evaluation remain pending.** This is second-event *readiness*, **not second-event validation**.
 
+
+**External-event next step:** [DG Khan pre-registered validation protocol](research/DG_KHAN_PREREGISTERED_PROTOCOL.md) locks the 25 June→19 July same-mode test, observation gates, the 20 m HH rule, and handling of the non-comparable 7 July mixed-mode scene **before any DG Khan flood-reference labels are accessed**. GFM catalogue item retrieval currently fails upstream; **no second-event results or skill scores exist**.
+
 ## Project overview
 
 Monsoon clouds can limit optical Earth observation. **Under the Clouds** combines NASA–ISRO **NISAR L-band SAR observations** with optical and independent flood-reference checks to help people explore where the surface changed, whether optical imagery was available, and what the evidence does—and does not—support. The bilingual (English/Urdu) site shows exploratory candidates in **Jatoi** and a separate **Muzaffargarh** study, with transparent validation and an exportable field-verification list.
